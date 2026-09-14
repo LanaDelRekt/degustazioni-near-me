@@ -299,16 +299,41 @@ button:focus-visible {
   border: 1px dashed var(--bordo); border-radius: var(--raggio);
 }
 
-/* ---------- metodo + footer ---------- */
+/* ---------- metodo (a scomparsa, in cima) + footer ---------- */
 .metodo {
-  margin: 44px 0 0; padding: 24px;
+  margin: 24px 0 0;
   background: var(--sfondo-2);
   border: 1px solid var(--bordo);
   border-radius: var(--raggio);
 }
-.metodo h2 { font-size: 1.3rem; margin-bottom: 12px; }
-.metodo ul { margin: 0; padding-left: 20px; }
-.metodo li { margin-bottom: 8px; font-size: .93rem; }
+.metodo > summary {
+  display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
+  padding: 14px 18px;
+  cursor: pointer;
+  list-style: none;
+  border-radius: var(--raggio);
+}
+.metodo > summary::-webkit-details-marker { display: none; }
+/* Freccia disegnata a mano: quella di default non si può colorare in modo affidabile. */
+.metodo > summary::before {
+  content: '';
+  width: 7px; height: 7px;
+  border-right: 2px solid var(--vino);
+  border-bottom: 2px solid var(--vino);
+  transform: rotate(-45deg);
+  transition: transform .18s ease;
+  flex-shrink: 0;
+  align-self: center;
+}
+.metodo[open] > summary::before { transform: rotate(45deg); }
+.metodo > summary:hover .metodo-titolo { color: var(--vino); }
+.metodo > summary:focus-visible { outline: 2px solid var(--vino); outline-offset: 2px; }
+.metodo-titolo { font-weight: 600; font-size: .98rem; }
+.metodo-hint { font-size: .8rem; color: var(--testo-2); }
+
+.metodo-corpo { padding: 0 18px 18px; border-top: 1px solid var(--bordo); margin-top: 2px; }
+.metodo-corpo ul { margin: 14px 0 0; padding-left: 20px; }
+.metodo-corpo li { margin-bottom: 8px; font-size: .92rem; }
 .disclaimer { margin: 16px 0 0; font-size: .9rem; color: var(--testo-2); font-style: italic; }
 
 .site-footer {
@@ -351,8 +376,10 @@ img, svg, table { max-width: 100%; }
   .dormire li { gap: 8px; }
   .dormire a { line-height: 1.45; }
 
-  .metodo { padding: 18px; }
-  .metodo li { font-size: .9rem; }
+  .metodo { margin-top: 18px; }
+  .metodo > summary { padding: 13px 14px; }
+  .metodo-corpo { padding: 0 14px 14px; }
+  .metodo-corpo li { font-size: .89rem; }
   .site-footer { padding: 20px 0 32px; }
 }
 
