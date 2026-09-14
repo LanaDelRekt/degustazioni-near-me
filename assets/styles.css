@@ -78,6 +78,33 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
   padding: 18px;
   margin: 28px 0;
 }
+/* scelta di Daniele: filtro in evidenza sopra tutti gli altri */
+.scelta-daniele {
+  margin: -4px 0 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--bordo);
+}
+.pill-toggle {
+  display: inline-flex; align-items: center; gap: 9px;
+  padding: 9px 16px 9px 12px;
+  border: 1.5px solid var(--oro);
+  border-radius: 999px;
+  cursor: pointer;
+  user-select: none;
+  color: var(--testo);
+  background: transparent;
+  transition: background .15s ease, color .15s ease;
+}
+.pill-toggle:hover { background: color-mix(in srgb, var(--oro) 12%, transparent); }
+.pill-toggle input { position: absolute; opacity: 0; width: 0; height: 0; }
+.pill-toggle:has(input:focus-visible) { outline: 2px solid var(--vino); outline-offset: 3px; }
+.pill-stella { color: var(--oro); font-size: 1.15rem; line-height: 1; }
+.pill-testo { font-weight: 600; font-size: .94rem; }
+.pill-conta { font-size: .8rem; color: var(--testo-2); }
+.pill-toggle:has(input:checked) { background: var(--oro); border-color: var(--oro); color: #241b1d; }
+.pill-toggle:has(input:checked) .pill-stella,
+.pill-toggle:has(input:checked) .pill-conta { color: #241b1d; }
+
 .filtri {
   display: grid;
   gap: 14px;
@@ -156,6 +183,7 @@ button:focus-visible {
   box-shadow: 0 2px 6px rgba(0, 0, 0, .35);
 }
 .pin.alta { background: var(--oro); color: #241b1d; }
+.pin.scelta { box-shadow: 0 0 0 3px var(--oro), 0 2px 6px rgba(0, 0, 0, .35); }
 .pin.evidenza { transform: scale(1.35); z-index: 1000 !important; }
 .leaflet-popup-content { font: inherit; margin: 12px 14px; }
 .leaflet-popup-content b { display: block; font-size: 1rem; }
@@ -177,8 +205,15 @@ button:focus-visible {
   scroll-margin-top: 20px;
 }
 .card.evidenza { border-color: var(--vino); }
+.card.consigliata { border-color: var(--oro); }
 .card-top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
 .card h3 { font-size: 1.16rem; letter-spacing: -.01em; }
+.card h3 .stella-daniele {
+  color: var(--oro);
+  margin-right: 5px;
+  font-size: 1.05em;
+  cursor: help;
+}
 .luogo { margin: 3px 0 0; font-size: .88rem; color: var(--testo-2); }
 
 .voto { text-align: right; flex-shrink: 0; }
@@ -195,6 +230,7 @@ button:focus-visible {
 }
 .badge.bio { color: var(--verde-ok); border-color: currentColor; }
 .badge.prezzo { color: var(--vino); border-color: currentColor; }
+.badge.scelta { color: var(--oro); border-color: currentColor; }
 
 .descr { margin: 12px 0 0; font-size: .93rem; color: var(--testo); }
 

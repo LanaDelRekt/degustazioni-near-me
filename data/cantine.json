@@ -29,7 +29,8 @@
   "su_prenotazione": false,
   "descrizione": "Cantina sociale: non è la tappa da enoturismo d'autore, ma è il posto giusto per lo sfuso e per bottiglie quotidiane a prezzi bassi. Accesso libero in orario di apertura.",
   "km_auto": 6.1,
-  "min_auto": 9
+  "min_auto": 9,
+  "consigliata": false
  },
  {
   "id": "poggio-dogana",
@@ -58,7 +59,8 @@
   "su_prenotazione": true,
   "descrizione": "Realtà recente sulle colline di Castrocaro, legata allo stesso gruppo di Ronchi di Castelluccio. Piccoli numeri, visite su appuntamento.",
   "km_auto": 9.3,
-  "min_auto": 12
+  "min_auto": 12,
+  "consigliata": false
  },
  {
   "id": "poderi-morini",
@@ -89,7 +91,8 @@
   "su_prenotazione": true,
   "descrizione": "Specialisti di autoctoni romagnoli rari — Centesimino e Uva Longanesi in testa. Degustazioni prenotabili da circa 17 €.",
   "km_auto": 9,
-  "min_auto": 13
+  "min_auto": 13,
+  "consigliata": false
  },
  {
   "id": "pandolfa",
@@ -119,7 +122,8 @@
   "su_prenotazione": true,
   "descrizione": "Tenuta con relais e ristorazione, casa anche del progetto Noelia Ricci. Programma di esperienze ampio: degustazioni, tour vigna-cantina, cucina.",
   "km_auto": 12.3,
-  "min_auto": 16
+  "min_auto": 16,
+  "consigliata": true
  },
  {
   "id": "drei-dona",
@@ -150,7 +154,8 @@
   "su_prenotazione": true,
   "descrizione": "Tenuta storica sulle prime colline forlivesi: Pruno e Graf Noir sono etichette che hanno costruito la reputazione internazionale del Sangiovese di Romagna.",
   "km_auto": 7.4,
-  "min_auto": 16
+  "min_auto": 16,
+  "consigliata": false
  },
  {
   "id": "pennita",
@@ -179,7 +184,8 @@
   "su_prenotazione": true,
   "descrizione": "Vino e olio extravergine sulle colline di Terra del Sole, con frantoio aziendale: buona tappa se vuoi abbinare degustazione e spesa.",
   "km_auto": 10.8,
-  "min_auto": 16
+  "min_auto": 16,
+  "consigliata": false
  },
  {
   "id": "colombina",
@@ -209,7 +215,8 @@
   "su_prenotazione": true,
   "descrizione": "Azienda molto frequentata tra Meldola e Bertinoro, con visite e degustazioni informali e un ottimo rapporto qualità-prezzo.",
   "km_auto": 12.1,
-  "min_auto": 17
+  "min_auto": 17,
+  "consigliata": false
  },
  {
   "id": "ca-rossa",
@@ -239,7 +246,8 @@
   "su_prenotazione": true,
   "descrizione": "Visite condotte dal titolare, con il vigneto di Albana più vecchio della zona (impianto 1935). Degustazioni da 3 o 5 vini con salumi e formaggi.",
   "km_auto": 12.8,
-  "min_auto": 17
+  "min_auto": 17,
+  "consigliata": false
  },
  {
   "id": "conde",
@@ -270,7 +278,8 @@
   "su_prenotazione": true,
   "descrizione": "Borgo-cantina ai piedi di Rocca delle Caminate, con ospitalità strutturata e visite guidate frequenti: una delle tappe più facili da organizzare in zona Predappio.",
   "km_auto": 12.4,
-  "min_auto": 18
+  "min_auto": 18,
+  "consigliata": false
  },
  {
   "id": "stefano-berti",
@@ -297,7 +306,8 @@
   "su_prenotazione": true,
   "descrizione": "Azienda familiare di piccole dimensioni sulle colline sopra Forlì, concentrata quasi esclusivamente sul Sangiovese. Accoglienza informale, su appuntamento.",
   "km_auto": 12.9,
-  "min_auto": 18
+  "min_auto": 18,
+  "consigliata": false
  },
  {
   "id": "sadivino",
@@ -324,7 +334,8 @@
   "su_prenotazione": true,
   "descrizione": "Produttore artigianale di Predappio, molto piccolo, con recensioni entusiaste ma numeri ridotti. Da prenotare con anticipo.",
   "km_auto": 14,
-  "min_auto": 18
+  "min_auto": 18,
+  "consigliata": false
  },
  {
   "id": "campodelsole",
@@ -353,7 +364,8 @@
   "su_prenotazione": true,
   "descrizione": "Cantina moderna sul crinale di Bertinoro, con sala degustazione panoramica verso la costa.",
   "km_auto": 12.9,
-  "min_auto": 18
+  "min_auto": 18,
+  "consigliata": false
  },
  {
   "id": "neri-davide",
@@ -383,7 +395,8 @@
   "su_prenotazione": true,
   "descrizione": "Azienda familiare bertinorese, piccola e ben valutata. Visite su appuntamento diretto col produttore.",
   "km_auto": 12.5,
-  "min_auto": 18
+  "min_auto": 18,
+  "consigliata": false
  },
  {
   "id": "chiara-condello",
@@ -410,7 +423,8 @@
   "su_prenotazione": true,
   "descrizione": "Progetto piccolo e molto identitario sul Sangiovese di Predappio, tra i nomi più citati dalla critica per la nuova onda romagnola. Visite solo su appuntamento.",
   "km_auto": 12.5,
-  "min_auto": 19
+  "min_auto": 19,
+  "consigliata": false
  },
  {
   "id": "celli",
@@ -444,7 +458,8 @@
   "su_prenotazione": true,
   "descrizione": "In pieno centro a Bertinoro, catalogo ampio e trasversale (dal Pagadebit frizzante all'Albana dolce). Comoda se vuoi unire la visita al borgo.",
   "km_auto": 14.4,
-  "min_auto": 19
+  "min_auto": 19,
+  "consigliata": false
  },
  {
   "id": "tenuta-la-viola",
@@ -473,7 +488,8 @@
   "su_prenotazione": true,
   "descrizione": "Biologica, accoglienza curata e una delle valutazioni Google più alte della zona. Formula standard: visita più degustazione di 3 vini.",
   "km_auto": 14.5,
-  "min_auto": 20
+  "min_auto": 20,
+  "consigliata": false
  },
  {
   "id": "madonia",
@@ -503,7 +519,8 @@
   "su_prenotazione": true,
   "descrizione": "Azienda di riferimento per il Sangiovese di Bertinoro (Ombroso) e per l'Albana. Dimensioni contenute, visita personale con la titolare.",
   "km_auto": 14.5,
-  "min_auto": 20
+  "min_auto": 20,
+  "consigliata": true
  },
  {
   "id": "tenuta-graziani",
@@ -532,7 +549,8 @@
   "su_prenotazione": true,
   "descrizione": "Piccola tenuta tra Bertinoro e Meldola, valutazione Google piena. Contatto diretto telefonico.",
   "km_auto": 14.4,
-  "min_auto": 20
+  "min_auto": 20,
+  "consigliata": false
  },
  {
   "id": "calonga",
@@ -565,7 +583,8 @@
   "su_prenotazione": true,
   "descrizione": "A pochi minuti dal centro di Forlì: catalogo ampio che va dal Sangiovese in riserva all'Albana passita, più una linea di vermouth.",
   "km_auto": 12.7,
-  "min_auto": 21
+  "min_auto": 21,
+  "consigliata": false
  },
  {
   "id": "marta-valpiani",
@@ -595,7 +614,8 @@
   "su_prenotazione": true,
   "descrizione": "Azienda condotta da madre e figlia, biologica, con una vineria annessa (la Mazza). Tra le interpretazioni più fini di Albana e Sangiovese dell'area.",
   "km_auto": 14.4,
-  "min_auto": 21
+  "min_auto": 21,
+  "consigliata": false
  },
  {
   "id": "bissoni",
@@ -626,7 +646,8 @@
   "su_prenotazione": true,
   "descrizione": "Circa 30.000 bottiglie l'anno, biologiche, concentrate su Sangiovese e Albana. Due formule: Classic (4 vini, 15 €) e Prestige (visita + 4 vini + tagliere, 25 €). Sconto per chi guida.",
   "km_auto": 13.3,
-  "min_auto": 21
+  "min_auto": 21,
+  "consigliata": false
  },
  {
   "id": "fattoria-paradiso",
@@ -658,7 +679,8 @@
   "su_prenotazione": true,
   "descrizione": "Tenuta storica dei Pezzi, con museo del vino e cantine visitabili: uno dei nomi che hanno costruito l'identità moderna di Bertinoro.",
   "km_auto": 14.2,
-  "min_auto": 22
+  "min_auto": 22,
+  "consigliata": false
  },
  {
   "id": "casadei",
@@ -685,7 +707,8 @@
   "su_prenotazione": true,
   "descrizione": "Piccola azienda biologica a conduzione familiare nelle colline di Predappio: poche etichette, visita raccolta e senza formalità.",
   "km_auto": 15.6,
-  "min_auto": 23
+  "min_auto": 23,
+  "consigliata": false
  },
  {
   "id": "de-stefenelli",
@@ -715,7 +738,8 @@
   "su_prenotazione": true,
   "descrizione": "Tenuta nella zona di Fratta Terme, tra Bertinoro e Meldola. Accoglienza curata, numeri piccoli.",
   "km_auto": 15.4,
-  "min_auto": 23
+  "min_auto": 23,
+  "consigliata": false
  },
  {
   "id": "nicolucci",
@@ -745,7 +769,8 @@
   "su_prenotazione": true,
   "descrizione": "Una delle firme storiche del Sangiovese di Predappio: quattro generazioni in cantina a Predappio Alta e un cru, Vigna del Generale, diventato riferimento della sottozona.",
   "km_auto": 18.4,
-  "min_auto": 24
+  "min_auto": 24,
+  "consigliata": false
  },
  {
   "id": "la-sabbiona",
@@ -777,7 +802,8 @@
   "su_prenotazione": true,
   "descrizione": "Agriturismo e cantina sotto la torre di Oriolo, specializzato negli autoctoni rari: Centesimino e Famoso. Degustazioni 15 € (3 vini) o 25 € (5 vini).",
   "km_auto": 15.2,
-  "min_auto": 24
+  "min_auto": 24,
+  "consigliata": false
  },
  {
   "id": "ancarani",
@@ -808,7 +834,8 @@
   "su_prenotazione": true,
   "descrizione": "Tra i principali interpreti del Famoso, con vineria annessa: si può bere sul posto senza per forza fare la visita completa.",
   "km_auto": 15.2,
-  "min_auto": 24
+  "min_auto": 24,
+  "consigliata": true
  },
  {
   "id": "podere-baratta",
@@ -837,7 +864,8 @@
   "su_prenotazione": true,
   "descrizione": "Azienda con ospitalità a Collinello: si può abbinare degustazione e pernottamento nello stesso posto.",
   "km_auto": 17.6,
-  "min_auto": 25
+  "min_auto": 25,
+  "consigliata": false
  },
  {
   "id": "via-del-colle",
@@ -866,7 +894,8 @@
   "su_prenotazione": true,
   "descrizione": "Azienda biologica a Collinello con apertura tipicamente pomeridiana e serale: funziona bene come aperitivo in vigna.",
   "km_auto": 17.8,
-  "min_auto": 25
+  "min_auto": 25,
+  "consigliata": false
  },
  {
   "id": "leone-conti",
@@ -898,7 +927,8 @@
   "su_prenotazione": true,
   "descrizione": "Cantina sperimentale e anticonvenzionale: macerati, Albana in anfora, recupero di vitigni dimenticati. Da qui passa buona parte del vino naturale romagnolo.",
   "km_auto": 16.3,
-  "min_auto": 25
+  "min_auto": 25,
+  "consigliata": true
  },
  {
   "id": "dal-nespoli",
@@ -930,7 +960,8 @@
   "su_prenotazione": true,
   "descrizione": "Azienda grande e molto visitata nella valle del Bidente, dal 1929. Percorso di visita strutturato e wine shop ampio.",
   "km_auto": 25.1,
-  "min_auto": 27
+  "min_auto": 27,
+  "consigliata": false
  },
  {
   "id": "san-biagio-vecchio",
@@ -960,7 +991,8 @@
   "su_prenotazione": true,
   "descrizione": "Colline di Oriolo, vitigni autoctoni e un tour di circa 2 ore tra vigna e cantina con degustazione di 4 vini. Max 8 persone al coperto, opzioni veg e gluten free.",
   "km_auto": 17.1,
-  "min_auto": 29
+  "min_auto": 29,
+  "consigliata": false
  },
  {
   "id": "gallegati",
@@ -990,7 +1022,8 @@
   "su_prenotazione": true,
   "descrizione": "Azienda familiare faentina molto quotata per l'Albana, comoda da raggiungere perché in pianura.",
   "km_auto": 29.8,
-  "min_auto": 29
+  "min_auto": 29,
+  "consigliata": false
  },
  {
   "id": "tenuta-uccellina",
@@ -1021,7 +1054,8 @@
   "su_prenotazione": true,
   "descrizione": "In pianura verso Ravenna, con una produzione ampia e visite regolari. Buona tappa se combini vino e centro storico ravennate.",
   "km_auto": 22.3,
-  "min_auto": 29
+  "min_auto": 29,
+  "consigliata": false
  },
  {
   "id": "trere",
@@ -1053,7 +1087,8 @@
   "su_prenotazione": true,
   "descrizione": "Cantina con agriturismo e ristorante, struttura grande e organizzata: la scelta comoda se siete in molti o con bambini.",
   "km_auto": 25,
-  "min_auto": 32
+  "min_auto": 32,
+  "consigliata": false
  },
  {
   "id": "vigne-dei-boschi",
@@ -1084,7 +1119,8 @@
   "su_prenotazione": true,
   "descrizione": "Progetto artigianale di Paolo Babini, storicamente legato ai gessi di Brisighella: Albana e Sangiovese di impostazione naturale.",
   "km_auto": 31.7,
-  "min_auto": 32
+  "min_auto": 32,
+  "consigliata": false
  },
  {
   "id": "il-pratello",
@@ -1114,7 +1150,8 @@
   "su_prenotazione": true,
   "descrizione": "Vini biologici e agriturismo in una sola tappa: si mangia, si dorme e si degusta senza rimettersi in macchina.",
   "km_auto": 28.7,
-  "min_auto": 33
+  "min_auto": 33,
+  "consigliata": false
  },
  {
   "id": "zerbina",
@@ -1148,7 +1185,8 @@
   "su_prenotazione": true,
   "descrizione": "Nome maiuscolo della Romagna: lo Scacco Matto (Albana passita) e il Marzieno sono etichette da guida. Visite prenotabili online.",
   "km_auto": 25.5,
-  "min_auto": 33
+  "min_auto": 33,
+  "consigliata": true
  },
  {
   "id": "ca-di-sopra",
@@ -1177,7 +1215,8 @@
   "su_prenotazione": true,
   "descrizione": "Azienda della valle del Marzeno, tra Brisighella e Modigliana: visita in cantina con degustazione su prenotazione.",
   "km_auto": 26.7,
-  "min_auto": 34
+  "min_auto": 34,
+  "consigliata": false
  },
  {
   "id": "il-teatro",
@@ -1204,7 +1243,8 @@
   "su_prenotazione": true,
   "descrizione": "Cantina piccolissima con vista su Modigliana, molto amata nelle recensioni. Contatto solo telefonico o social.",
   "km_auto": 31.6,
-  "min_auto": 35
+  "min_auto": 35,
+  "consigliata": false
  },
  {
   "id": "stefano-ferrucci",
@@ -1234,7 +1274,8 @@
   "su_prenotazione": true,
   "descrizione": "Riferimento per l'Albana (Domus Caia) e per i Sangiovese di lungo affinamento. Azienda familiare, visite su appuntamento.",
   "km_auto": 29.3,
-  "min_auto": 36
+  "min_auto": 36,
+  "consigliata": false
  },
  {
   "id": "villa-papiano",
@@ -1263,7 +1304,8 @@
   "su_prenotazione": true,
   "descrizione": "Uno dei nomi simbolo del Sangiovese di montagna di Modigliana, in quota sull'Appennino tosco-romagnolo. Vale il viaggio per il paesaggio quanto per i vini.",
   "km_auto": 31.1,
-  "min_auto": 37
+  "min_auto": 37,
+  "consigliata": true
  },
  {
   "id": "podere-la-berta",
@@ -1293,7 +1335,8 @@
   "su_prenotazione": true,
   "descrizione": "Cantina e agriturismo sulle colline di Brisighella, con ristorazione: tante recensioni e una formula collaudata per gruppi.",
   "km_auto": 25,
-  "min_auto": 38
+  "min_auto": 38,
+  "consigliata": false
  },
  {
   "id": "masselina",
@@ -1322,7 +1365,8 @@
   "su_prenotazione": true,
   "descrizione": "Progetto recente e molto curato sul crinale di Castel Bolognese, con architettura di cantina contemporanea e accoglienza di livello.",
   "km_auto": 30.4,
-  "min_auto": 40
+  "min_auto": 40,
+  "consigliata": false
  },
  {
   "id": "tenuta-neri",
@@ -1351,7 +1395,8 @@
   "su_prenotazione": true,
   "descrizione": "Sulle colline cesenati, con visita guidata, degustazione e taglieri locali. Prenotazione online attiva.",
   "km_auto": 38.9,
-  "min_auto": 41
+  "min_auto": 41,
+  "consigliata": false
  },
  {
   "id": "tenuta-casali",
@@ -1381,7 +1426,8 @@
   "su_prenotazione": true,
   "descrizione": "Nella valle del Savio, biologica, con una delle accoglienze più apprezzate del cesenate. Al limite dell'ora di guida da Forlì.",
   "km_auto": 45.9,
-  "min_auto": 41
+  "min_auto": 41,
+  "consigliata": false
  },
  {
   "id": "cantina-bulzaga",
@@ -1411,7 +1457,8 @@
   "su_prenotazione": true,
   "descrizione": "Piccola cantina di Pideura, nelle colline sopra Brisighella. Location molto citata nelle recensioni per la vista.",
   "km_auto": 28.6,
-  "min_auto": 42
+  "min_auto": 42,
+  "consigliata": false
  },
  {
   "id": "balia-di-zola",
@@ -1438,7 +1485,8 @@
   "su_prenotazione": true,
   "descrizione": "Micro-azienda dell'alta valle del Tramazzo, nel circuito dei Sangiovese di montagna di Modigliana. Produzione minima, accoglienza molto personale.",
   "km_auto": 36.7,
-  "min_auto": 43
+  "min_auto": 43,
+  "consigliata": false
  },
  {
   "id": "cantina-braschi",
@@ -1467,7 +1515,8 @@
   "su_prenotazione": true,
   "descrizione": "Storica cantina di Mercato Saraceno nella valle del Savio, con vigneti in quota e stile tradizionale.",
   "km_auto": 46.9,
-  "min_auto": 43
+  "min_auto": 43,
+  "consigliata": false
  },
  {
   "id": "tre-monti",
@@ -1501,7 +1550,8 @@
   "su_prenotazione": true,
   "descrizione": "Grande catalogo (oltre venti etichette) e una delle cantine più organizzate per l'accoglienza nella zona di Imola.",
   "km_auto": 48.5,
-  "min_auto": 45
+  "min_auto": 45,
+  "consigliata": false
  },
  {
   "id": "villa-venti",
@@ -1529,7 +1579,8 @@
   "su_prenotazione": true,
   "descrizione": "Cantina e agriturismo sulle colline di Roncofreddo, piccola e artigianale, con il Primo Segno come etichetta simbolo.",
   "km_auto": 41.4,
-  "min_auto": 45
+  "min_auto": 45,
+  "consigliata": false
  },
  {
   "id": "cantina-casadio",
@@ -1558,7 +1609,8 @@
   "su_prenotazione": true,
   "descrizione": "Enoturismo in valle del Lamone con formula aperitivo: apertura serale nel fine settimana, atmosfera rilassata.",
   "km_auto": 35.1,
-  "min_auto": 45
+  "min_auto": 45,
+  "consigliata": false
  },
  {
   "id": "ronchi-castelluccio",
@@ -1585,7 +1637,8 @@
   "su_prenotazione": true,
   "descrizione": "Storica proprietà dei ronchi di Modigliana, rilanciata di recente: cru di Sangiovese su terreni di marne e arenarie.",
   "km_auto": 37.2,
-  "min_auto": 46
+  "min_auto": 46,
+  "consigliata": true
  },
  {
   "id": "tenuta-amalia",
@@ -1615,6 +1668,7 @@
   "su_prenotazione": true,
   "descrizione": "Tenuta della valle del Marecchia, al confine esterno dell'ora di guida. Da abbinare a una gita a Verucchio o Santarcangelo.",
   "km_auto": 53.9,
-  "min_auto": 49
+  "min_auto": 49,
+  "consigliata": false
  }
 ]

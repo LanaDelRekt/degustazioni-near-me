@@ -27,6 +27,15 @@
 <main class="wrap">
 
   <section class="pannello" aria-label="Filtri">
+    <div class="scelta-daniele">
+      <label class="pill-toggle">
+        <input type="checkbox" id="f-consigliate">
+        <span class="pill-stella" aria-hidden="true">★</span>
+        <span class="pill-testo">Solo i consigliati di Daniele</span>
+        <span class="pill-conta" id="conta-consigliate"></span>
+      </label>
+    </div>
+
     <div class="filtri">
       <label class="campo campo-cerca">
         <span>Cerca</span>
@@ -62,6 +71,7 @@
         <span>Ordina per</span>
         <select id="f-ordine">
           <option value="distanza">Distanza da Forlì</option>
+          <option value="consigliate">Consigliati di Daniele</option>
           <option value="voto">Voto Google</option>
           <option value="recensioni">Numero di recensioni</option>
           <option value="prezzo">Prezzo degustazione</option>
@@ -99,6 +109,7 @@
       <li><strong>Costo della degustazione</strong> è indicato solo dove l'azienda o una piattaforma di prenotazione lo pubblica. Dove manca, significa che va chiesto: quasi tutte queste cantine ricevono su appuntamento e il prezzo dipende dalla formula.</li>
       <li><strong>Numero di vini in catalogo</strong> è compilato solo dove il sito dell'azienda elenca le etichette in modo verificabile.</li>
       <li><strong>Vitigni</strong> sono indicativi e servono a filtrare, non sono l'elenco completo della produzione.</li>
+      <li><strong>La stella ★</strong> non è un punteggio: sono le cantine consigliate da Daniele, scelte a mano. Il voto Google resta lì accanto e dice un'altra cosa.</li>
       <li><strong>Dove dormire</strong>: le tre strutture più vicine a ciascuna cantina, prese da Booking con voto superiore a 8. La distanza indicata è in linea d'aria.</li>
     </ul>
     <p class="disclaimer">Prima di partire chiama sempre: gli orari delle piccole cantine cambiano di continuo. E se degusti, guida qualcun altro.</p>

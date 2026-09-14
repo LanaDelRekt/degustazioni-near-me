@@ -33,6 +33,8 @@ const el = {
   ordine: $('#f-ordine'),
   bio: $('#f-bio'),
   prezzo: $('#f-prezzo'),
+  consigliate: $('#f-consigliate'),
+  contaConsigliate: $('#conta-consigliate'),
   reset: $('#reset'),
 };
 
@@ -100,6 +102,7 @@ async function carica() {
   popolaSelect(el.zona, stato.cantine.map((c) => c.zona));
 
   el.conteggioHero.textContent = stato.cantine.length;
+  el.contaConsigliate.textContent = `(${stato.cantine.filter((c) => c.consigliata).length})`;
   disegnaMappa();
   applica();
 }
@@ -151,7 +154,9 @@ function aggiornaMarker(cantine) {
     const marker = L.marker([c.lat, c.lng], {
       icon: L.divIcon({
         className: '',
-        html: `<div class="pin ${alta ? 'alta' : ''}">${c.google_rating?.toFixed(1) ?? '–'}</div>`,
+        html: `<div class="pin ${alta ? 'alta' : ''} ${c.consigliata ? 'scelta' : ''}">${
+          c.google_rating?.toFixed(1) ?? '–'
+        }</div>`,
         iconSize: [34, 34],
         iconAnchor: [17, 17],
       }),
@@ -200,6 +205,7 @@ function applica() {
   el.votoOut.textContent = minVoto ? minVoto.toFixed(1) : '0';
 
   let out = stato.cantine.filter((c) => {
+    if (el.consigliate.checked && !c.consigliata) return false;
     if (maxMin < 60 && (c.min_auto ?? 999) > maxMin) return false;
     if (minVoto && (c.google_rating ?? 0) < minVoto) return false;
     if (zona && c.zona !== zona) return false;
@@ -217,6 +223,7 @@ function applica() {
   });
 
   const ordinatori = {
+    consigliate: (a, b) => Number(b.consigliata) - Number(a.consigliata) || (a.min_auto ?? 999) - (b.min_auto ?? 999),
     distanza: (a, b) => (a.min_auto ?? 999) - (b.min_auto ?? 999),
     voto: (a, b) => (b.google_rating ?? 0) - (a.google_rating ?? 0) || (b.google_recensioni ?? 0) - (a.google_recensioni ?? 0),
     recensioni: (a, b) => (b.google_recensioni ?? 0) - (a.google_recensioni ?? 0),
@@ -262,6 +269,7 @@ function schedaHTML(c) {
   const prezzo = prezzoTesto(c);
 
   const badge = [
+    c.consigliata ? '<span class="badge scelta">★ scelta di Daniele</span>' : '',
     `<span class="badge">${esc(c.zona)}</span>`,
     c.bio ? '<span class="badge bio">biologica</span>' : '',
     prezzo ? `<span class="badge prezzo">degustazione ${esc(prezzo)}</span>` : '',
@@ -278,10 +286,12 @@ function schedaHTML(c) {
     .join('');
 
   return `
-<article class="card" id="c-${esc(c.id)}">
+<article class="card${c.consigliata ? ' consigliata' : ''}" id="c-${esc(c.id)}">
   <div class="card-top">
     <div>
-      <h3>${esc(c.nome)}</h3>
+      <h3>${
+        c.consigliata ? '<span class="stella-daniele" title="Consigliata da Daniele">★</span>' : ''
+      }${esc(c.nome)}</h3>
       <p class="luogo">${esc(c.comune)} (${esc(c.provincia)})</p>
     </div>
     <div class="voto">
@@ -324,7 +334,8 @@ function schedaHTML(c) {
 
 /* -------------------------------------------------------------------- eventi */
 
-for (const nodo of [el.testo, el.vitigno, el.tipologia, el.zona, el.minuti, el.voto, el.ordine, el.bio, el.prezzo]) {
+const controlli = [el.testo, el.vitigno, el.tipologia, el.zona, el.minuti, el.voto, el.ordine, el.bio, el.prezzo, el.consigliate];
+for (const nodo of controlli) {
   nodo.addEventListener('input', applica);
 }
 
@@ -338,6 +349,7 @@ el.reset.addEventListener('click', () => {
   el.ordine.value = 'distanza';
   el.bio.checked = false;
   el.prezzo.checked = false;
+  el.consigliate.checked = false;
   applica();
 });
 

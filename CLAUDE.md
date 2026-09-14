@@ -55,6 +55,7 @@ Un array di oggetti. Campi obbligatori in **grassetto**.
 | costo_degustazione_max | number | opzionale, se esiste una forbice |
 | vini_catalogo | number\|null | solo se verificabile sul sito dell'azienda |
 | su_prenotazione | boolean | `false` = si entra senza appuntamento |
+| **consigliata** | boolean | scelta personale di Daniele: stella ★, bordo oro e filtro dedicato in cima al pannello. Non è un punteggio e non ha nulla a che vedere col voto Google |
 | descrizione | string | 1–2 frasi, concrete, niente marketing |
 | km_auto, min_auto | number | **generati** da `enrich-distanze.mjs`, non scrivere a mano |
 
