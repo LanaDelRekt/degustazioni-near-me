@@ -122,8 +122,25 @@ function popolaSelect(select, valori) {
 let mappa;
 let gruppoMarker;
 
+/** Su touch la mappa parte bloccata: altrimenti si mangia lo scroll della pagina. */
+const TOUCH = window.matchMedia('(hover: none)').matches;
+const MOVIMENTO = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+
 function disegnaMappa() {
-  mappa = L.map('mappa', { scrollWheelZoom: false }).setView([44.2, 11.98], 10);
+  mappa = L.map('mappa', {
+    scrollWheelZoom: false,
+    dragging: !TOUCH,
+    tap: false,
+  }).setView([44.2, 11.98], 10);
+
+  if (TOUCH) {
+    const sblocca = $('#mappa-sblocca');
+    sblocca.hidden = false;
+    sblocca.addEventListener('click', () => {
+      mappa.dragging.enable();
+      sblocca.hidden = true;
+    });
+  }
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
@@ -188,7 +205,7 @@ function evidenzia(id, scrollaAllaScheda) {
   const card = document.getElementById(`c-${id}`);
   card?.classList.add('evidenza');
   stato.marker.get(id)?.getElement()?.querySelector('.pin')?.classList.add('evidenza');
-  if (scrollaAllaScheda) card?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  if (scrollaAllaScheda) card?.scrollIntoView({ behavior: MOVIMENTO, block: 'center' });
 }
 
 /* ------------------------------------------------------------------- filtri */
@@ -241,7 +258,7 @@ function applica() {
 
 function rendi(cantine) {
   el.conteggio.innerHTML = cantine.length
-    ? `<strong>${cantine.length}</strong> cantine su ${stato.cantine.length}`
+    ? `<strong>${cantine.length}</strong> ${cantine.length === 1 ? 'cantina' : 'cantine'} su ${stato.cantine.length}`
     : 'Nessuna cantina con questi filtri';
 
   if (!cantine.length) {
@@ -260,6 +277,8 @@ function rendi(cantine) {
       if (m) {
         mappa.setView(m.getLatLng(), Math.max(mappa.getZoom(), 12), { animate: true });
         m.openPopup();
+        // Su mobile la mappa sta sopra la lista: senza questo il pan avviene fuori schermo.
+        if (TOUCH) document.querySelector('.mappa-box').scrollIntoView({ behavior: MOVIMENTO, block: 'center' });
       }
     });
   }
@@ -294,11 +313,13 @@ function schedaHTML(c) {
       }${esc(c.nome)}</h3>
       <p class="luogo">${esc(c.comune)} (${esc(c.provincia)})</p>
     </div>
-    <div class="voto">
-      <div class="stelle" title="Voto Google Maps">${stelle(c.google_rating)}</div>
-      <div class="voto-num">${c.google_rating?.toFixed(1) ?? '–'}</div>
-      <span class="voto-rec">${c.google_recensioni ?? 0} recensioni</span>
-    </div>
+    <div class="voto">${
+      c.google_rating == null
+        ? '<span class="voto-assente">nessuna<br>scheda Google</span>'
+        : `<div class="stelle" title="Voto Google Maps">${stelle(c.google_rating)}</div>
+           <div class="voto-num">${c.google_rating.toFixed(1)}</div>
+           <span class="voto-rec">${c.google_recensioni ?? 0} recensioni</span>`
+    }</div>
   </div>
 
   <div class="badge-riga">${badge}</div>
@@ -320,6 +341,7 @@ function schedaHTML(c) {
 
   <div class="azioni">
     ${c.telefono ? `<a class="primaria" href="tel:${c.telefono.replace(/\s/g, '')}">Chiama</a>` : ''}
+    ${c.email ? `<a class="${c.telefono ? '' : 'primaria'}" href="mailto:${esc(c.email)}">Email</a>` : ''}
     ${c.sito ? `<a href="${esc(c.sito)}" target="_blank" rel="noopener">Sito</a>` : ''}
     <a href="${mapsLink(c)}" target="_blank" rel="noopener">Google Maps</a>
     <a href="${indicazioniLink(c)}" target="_blank" rel="noopener">Indicazioni</a>

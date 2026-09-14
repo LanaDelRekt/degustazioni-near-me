@@ -2,7 +2,9 @@
 <html lang="it">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f2ebe6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161113" media="(prefers-color-scheme: dark)">
 <title>Dove portare Lele a bere: una guida pratica</title>
 <meta name="description" content="Tutte le cantine entro un'ora di auto da Forlì: voto Google, costo della degustazione, contatti, mappa e dove dormire lì vicino.">
 <meta property="og:title" content="Dove portare Lele a bere: una guida pratica">
@@ -95,8 +97,13 @@
   </section>
 
   <section class="mappa-sez" aria-label="Mappa delle cantine">
-    <div id="mappa"></div>
-    <p class="nota-mappa">Clicca un pallino per la scheda. I numeri nei cerchi sono il voto Google.</p>
+    <div class="mappa-box">
+      <div id="mappa"></div>
+      <button type="button" class="mappa-sblocca" id="mappa-sblocca" hidden>
+        Tocca per usare la mappa
+      </button>
+    </div>
+    <p class="nota-mappa">Tocca un pallino per aprire la scheda. I numeri nei cerchi sono il voto Google.</p>
   </section>
 
   <section id="lista" class="lista" aria-live="polite"></section>

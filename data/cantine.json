@@ -1308,6 +1308,39 @@
   "consigliata": true
  },
  {
+  "id": "vespignano",
+  "nome": "Cantina Vespignano",
+  "comune": "Brisighella",
+  "provincia": "RA",
+  "zona": "Brisighella",
+  "lat": 44.2151045,
+  "lng": 11.7912426,
+  "google_rating": null,
+  "google_recensioni": null,
+  "sito": "https://www.cantinavespignano.it",
+  "telefono": null,
+  "email": "info@cantinavespignano.it",
+  "indirizzo": "Via Bicocca, 11",
+  "vitigni": [
+   "Albana",
+   "Sangiovese",
+   "Trebbiano"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "frizzante"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "consigliata": false,
+  "descrizione": "Progetto nato nel 2021: Michele Liverani recupera vecchie vigne sparse sui calanchi di Brisighella, compresa un'Albana da un impianto del 1941. Fermentazioni spontanee e intervento minimo. Nessuna scheda Google, si contatta via email.",
+  "km_auto": 30.2,
+  "min_auto": 37
+ },
+ {
   "id": "podere-la-berta",
   "nome": "Podere La Berta",
   "comune": "Brisighella",

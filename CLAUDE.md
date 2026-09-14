@@ -44,9 +44,9 @@ Un array di oggetti. Campi obbligatori in **grassetto**.
 | **comune**, **provincia** | string | provincia a due lettere |
 | **zona** | string | raggruppamento usato dal filtro (Predappio, Bertinoro, Faenza…) |
 | **lat**, **lng** | number | coordinate esatte dalla scheda Google Maps |
-| google_rating | number\|null | 0–5 |
+| google_rating | number\|null | 0–5. `null` = l'azienda non ha una scheda Google: la card mostra "nessuna scheda Google" invece di stelle finte |
 | google_recensioni | number\|null | |
-| sito, telefono | string\|null | `null` se non esiste, mai stringa vuota |
+| sito, telefono, email | string\|null | `null` se non esiste, mai stringa vuota. Se manca il telefono, il pulsante Email prende il posto della primaria |
 | indirizzo | string | via e civico, senza comune |
 | vitigni | string[] | **indicativi**, alimentano il filtro "cosa vuoi bere" |
 | tipologie | string[] | rosso, bianco, rosato, spumante, passito, macerato, vermouth, sfuso |
@@ -85,11 +85,16 @@ le cantine vicine, senza toccare altro.
 5. **Italiano** in interfaccia, commenti, nomi dei campi e messaggi di commit.
 6. **Temi.** Ogni colore nuovo va definito come token su `:root` e ridefinito nel blocco
    `prefers-color-scheme: dark`. Mai un colore che esista solo in un tema.
+7. **Mobile prima di tutto.** Il sito si usa in macchina o in piedi in cantina. Breakpoint
+   a 760px (due colonne di filtri), 420px (una colonna) e 360px (dati impilati). I link
+   d'azione restano sopra i 44px di altezza. Su touch la mappa parte con il drag disattivato
+   e un velo "Tocca per usare la mappa": senza, si mangia lo scroll verticale della pagina.
+   Verifica le modifiche a 390, 360 e 320px prima di pubblicare.
 
 ## Provenienza dei dati
 
 - Voti, recensioni, coordinate, telefoni, siti: schede Google Maps, lette a settembre 2026.
 - Prezzi delle degustazioni: siti delle aziende e piattaforme di prenotazione (Winedering,
-  pagine "visite" ufficiali). Coperti circa 8 casi su 54.
+  pagine "visite" ufficiali). Coperti circa 8 casi su 55.
 - Alloggi: ricerche Booking per località con filtro punteggio ≥ 8.
 - Tempi di percorrenza: OSRM, profilo `driving`, origine Piazza Saffi a Forlì.

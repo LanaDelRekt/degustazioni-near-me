@@ -2,7 +2,7 @@
 
 Una guida pratica alle cantine entro **un'ora di auto da Forlì**.
 
-54 aziende tra Predappio, Bertinoro, Modigliana, Castrocaro, Brisighella, Faenza,
+55 aziende tra Predappio, Bertinoro, Modigliana, Castrocaro, Brisighella, Faenza,
 Castel Bolognese, Imola, Cesena, la valle del Bidente e quella del Savio. Per ognuna:
 voto Google, costo della degustazione dove è pubblico, contatti, posizione sulla mappa
 e i tre alloggi Booking più vicini con punteggio sopra 8.
