@@ -1,66 +1,740 @@
 [
-{"nome":"la cana dolce","comune":"Bertinoro","voto":9.4,"recensioni":158,"lat":44.14582,"lng":12.14168,"slug":"la-cana-dolce"},
-{"nome":"Hotel Panorama","comune":"Bertinoro","voto":9.2,"recensioni":134,"lat":44.14928,"lng":12.13388,"slug":"panorama-bertinoro"},
-{"nome":"Agriturismo al Colle","comune":"Capocolle di Bertinoro","voto":8.9,"recensioni":162,"lat":44.15738,"lng":12.18333,"slug":"agriturismo-al-colle"},
-{"nome":"Il Vigneto Cottage","comune":"Bertinoro","voto":9.1,"recensioni":20,"lat":44.16199,"lng":12.12741,"slug":"il-vigneto-cottage"},
-{"nome":"Ca' Bevilacqua Bed & Breakfast","comune":"Santa Maria Nuova di Bertinoro","voto":9.7,"recensioni":79,"lat":44.21351,"lng":12.19958,"slug":"ca-39-bevilacqua-bed-amp-breakfast"},
-{"nome":"Novecento","comune":"Bertinoro","voto":9.7,"recensioni":20,"lat":44.14826,"lng":12.13451,"slug":"romagnabnb-novecento"},
-{"nome":"Agriturismo 7 Colonne","comune":"Bertinoro","voto":9.1,"recensioni":73,"lat":44.14862,"lng":12.14805,"slug":"agriturismo-7-colonne"},
-{"nome":"Residence Villa degli Ulivi","comune":"Bertinoro","voto":9.4,"recensioni":29,"lat":44.14957,"lng":12.1112,"slug":"residence-villa-degli-ulivi"},
-{"nome":"Hotel Fontanelle","comune":"Fratta Terme","voto":8.7,"recensioni":215,"lat":44.14155,"lng":12.10077,"slug":"fontanelle-fratta-terme"},
-{"nome":"BeB Montefratta","comune":"Fratta Terme","voto":9.5,"recensioni":113,"lat":44.1453,"lng":12.09635,"slug":"beb-montefratta"},
-{"nome":"Locanda Alla Mano","comune":"Forlimpopoli","voto":9.1,"recensioni":196,"lat":44.19082,"lng":12.12907,"slug":"locanda-alla-mano"},
-{"nome":"Quel Castello di Diegaro","comune":"Diegaro di Cesena","voto":9.3,"recensioni":262,"lat":44.15553,"lng":12.18903,"slug":"locanda-del-castello-diegaro-di-cesena"},
-{"nome":"Pecoranera","comune":"Cesena","voto":9.7,"recensioni":52,"lat":44.13128,"lng":12.15578,"slug":"pecoranera"},
-{"nome":"Elegant 2-Suite Residence","comune":"Castrocaro Terme","voto":9.8,"recensioni":14,"lat":44.1752,"lng":11.94736,"slug":"elegant-2-suite-residence-near-the-thermal-baths"},
-{"nome":"Le Stagioni Luxury Suite","comune":"Forlì","voto":9.6,"recensioni":231,"lat":44.22741,"lng":12.04291,"slug":"chalet-dei-boschi"},
-{"nome":"Locanda Appennino","comune":"Predappio","voto":9.5,"recensioni":150,"lat":44.08737,"lng":11.97782,"slug":"locanda-appennino"},
-{"nome":"Agriturismo Ceriano","comune":"Modigliana","voto":9.5,"recensioni":131,"lat":44.1575,"lng":11.81075,"slug":"agriturismo-ceriano"},
-{"nome":"L'Ultimo Piano B&B","comune":"Forlì","voto":9.5,"recensioni":13,"lat":44.22139,"lng":12.03158,"slug":"ultimo-piano-b-amp-b-forli"},
-{"nome":"La Locanda della Campanara","comune":"Galeata","voto":9.5,"recensioni":431,"lat":43.98543,"lng":11.90584,"slug":"la-locanda-della-campanara"},
-{"nome":"La Melagrana","comune":"Marradi","voto":9.9,"recensioni":39,"lat":44.16604,"lng":11.69073,"slug":"la-melagrana-brisighella"},
-{"nome":"Agriturismo Popolano di Sotto","comune":"Marradi","voto":9.6,"recensioni":80,"lat":44.09896,"lng":11.65448,"slug":"agriturismo-popolano-di-sotto"},
-{"nome":"Agriturismo Camponovo","comune":"Brisighella","voto":9.4,"recensioni":134,"lat":44.18849,"lng":11.89027,"slug":"agriturismo-camponovo"},
-{"nome":"Riva Quartarola","comune":"Modigliana","voto":9.2,"recensioni":17,"lat":44.15415,"lng":11.7921,"slug":"quartarola-al-fiume"},
-{"nome":"Agriturismo Contea di Val d'Amone","comune":"Brisighella","voto":9.2,"recensioni":287,"lat":44.24309,"lng":11.81149,"slug":"agriturismo-contea-valdamone"},
-{"nome":"Bellosguardo Resort","comune":"Modigliana","voto":9.0,"recensioni":164,"lat":44.1613,"lng":11.78246,"slug":"bellosguardo-resort"},
-{"nome":"Agriturismo Torre del Marino","comune":"Brisighella","voto":9.5,"recensioni":188,"lat":44.25265,"lng":11.75858,"slug":"torre-del-marino"},
-{"nome":"Locanda La Cavallina","comune":"Brisighella","voto":9.0,"recensioni":198,"lat":44.21885,"lng":11.76947,"slug":"locanda-la-cavallina"},
-{"nome":"B&B Orto di Borghi","comune":"Faenza","voto":9.9,"recensioni":10,"lat":44.31496,"lng":11.94937,"slug":"b-amp-b-orto-di-borghi"},
-{"nome":"La Suite Faenza","comune":"Faenza","voto":9.8,"recensioni":40,"lat":44.2846,"lng":11.89875,"slug":"la-suite-faenza"},
-{"nome":"Elegante torretta in centro","comune":"Faenza","voto":9.4,"recensioni":65,"lat":44.28732,"lng":11.88506,"slug":"elegante-torretta-in-centro"},
-{"nome":"Dolce Casetta","comune":"Faenza","voto":9.4,"recensioni":104,"lat":44.35093,"lng":11.92222,"slug":"dolce-casetta"},
-{"nome":"Casa della Pesa","comune":"Faenza","voto":9.3,"recensioni":50,"lat":44.29071,"lng":11.88397,"slug":"appartamento-faenza-faenza"},
-{"nome":"Le Suite di Faenza","comune":"Faenza","voto":9.2,"recensioni":102,"lat":44.28513,"lng":11.88446,"slug":"le-suite-di-faenza"},
-{"nome":"Affittacamere Mark","comune":"Faenza","voto":9.2,"recensioni":139,"lat":44.28241,"lng":11.88843,"slug":"b-amp-b-mark"},
-{"nome":"B&B Nadine Forlì","comune":"Forlì","voto":9.9,"recensioni":184,"lat":44.23892,"lng":12.11954,"slug":"b-amp-b-nadine"},
-{"nome":"The Suite Romagna Central Apartment","comune":"Forlì","voto":9.7,"recensioni":42,"lat":44.2083,"lng":12.10788,"slug":"forli-sud-romagna-central-suite-apartment-parking"},
-{"nome":"Ca Veja Room & Breakfast","comune":"Forlì","voto":9.7,"recensioni":25,"lat":44.21406,"lng":12.08795,"slug":"ca-veja-b-amp-b-forli"},
-{"nome":"B&B Amo'","comune":"Forlì","voto":9.7,"recensioni":43,"lat":44.20471,"lng":12.05615,"slug":"b-amp-b-amo"},
-{"nome":"B&B Casa Dodo Luxury","comune":"Forlì","voto":9.6,"recensioni":27,"lat":44.2267,"lng":12.04033,"slug":"casa-dodo-paradiso-luxury"},
-{"nome":"Forlì Park View","comune":"Forlì","voto":9.6,"recensioni":21,"lat":44.21555,"lng":12.04913,"slug":"vista-sulle-colline"},
-{"nome":"La Canova","comune":"Predappio","voto":9.4,"recensioni":21,"lat":44.13362,"lng":11.97681,"slug":"la-canova-provincia-di-forli-cesena"},
-{"nome":"Casa Schiavoni","comune":"Predappio","voto":9.4,"recensioni":190,"lat":44.13221,"lng":12.00421,"slug":"casa-schiavoni"},
-{"nome":"Le Stanze di Kamà","comune":"Cesena","voto":9.7,"recensioni":155,"lat":44.13504,"lng":12.23607,"slug":"le-stlnze-di-klml"},
-{"nome":"La Dimora di Kamà","comune":"Cesena","voto":9.5,"recensioni":68,"lat":44.13671,"lng":12.24619,"slug":"ll-dimorl-di-klml"},
-{"nome":"B&B Antico Sentiero","comune":"Cesena","voto":9.5,"recensioni":23,"lat":44.1183,"lng":12.26401,"slug":"b-amp-b-antico-sentiero"},
-{"nome":"Casale del Fattore","comune":"Longiano","voto":9.5,"recensioni":85,"lat":44.14765,"lng":12.34946,"slug":"casale-del-fattore"},
-{"nome":"Casa delle Ginestre","comune":"Cesena","voto":9.5,"recensioni":20,"lat":44.07487,"lng":12.21161,"slug":"casa-delle-ginestre-cesena1"},
-{"nome":"Podere Selvatici","comune":"Imola","voto":9.8,"recensioni":166,"lat":44.34505,"lng":11.73827,"slug":"podere-selvatici"},
-{"nome":"Le Suite del Vicolo","comune":"Imola","voto":9.7,"recensioni":77,"lat":44.35499,"lng":11.71612,"slug":"double-suite-charmant"},
-{"nome":"Il Ghiandolino","comune":"Imola","voto":9.6,"recensioni":96,"lat":44.30754,"lng":11.7155,"slug":"il-ghiandolino"},
-{"nome":"Tosa Welcome","comune":"Imola","voto":9.5,"recensioni":176,"lat":44.33451,"lng":11.69845,"slug":"tosa-welcome"},
-{"nome":"La casa di Hermes","comune":"Imola","voto":9.5,"recensioni":109,"lat":44.35561,"lng":11.71192,"slug":"la-casa-di-hermes"},
-{"nome":"Ca' Spadoni","comune":"Imola","voto":9.4,"recensioni":193,"lat":44.35452,"lng":11.71192,"slug":"a-ca-spadoni-imola"},
-{"nome":"Casina Morgana B&B","comune":"Sarsina","voto":9.9,"recensioni":41,"lat":43.87893,"lng":12.28569,"slug":"casina-morgana"},
-{"nome":"B&B Al Tardino","comune":"Mercato Saraceno","voto":9.8,"recensioni":27,"lat":44.02121,"lng":12.27962,"slug":"b-amp-b-al-tardino"},
-{"nome":"Fra Bosco e Cielo B&B","comune":"Mercato Saraceno","voto":9.7,"recensioni":36,"lat":43.9313,"lng":12.19269,"slug":"fra-bosco-e-cielo-b-amp-b"},
-{"nome":"Oltretempo Agriturismo","comune":"Bagno di Romagna","voto":9.7,"recensioni":24,"lat":43.94344,"lng":12.07731,"slug":"oltretempo-agriturismo"},
-{"nome":"Il Giardino dei Frati","comune":"Longiano","voto":9.7,"recensioni":46,"lat":44.04094,"lng":12.31531,"slug":"il-giardino-dei-frati"},
-{"nome":"Podere Casone","comune":"Marradi","voto":9.7,"recensioni":72,"lat":44.0966,"lng":11.68592,"slug":"podere-casone"},
-{"nome":"Palazzo Torriani","comune":"Marradi","voto":9.6,"recensioni":87,"lat":44.07643,"lng":11.6135,"slug":"palazzo-torriani"},
-{"nome":"La Chiocciola Apartments","comune":"Santarcangelo di Romagna","voto":9.6,"recensioni":26,"lat":44.05806,"lng":12.44017,"slug":"la-chiocciola-apartments"},
-{"nome":"B&B Casa dei Grilli","comune":"Longiano","voto":9.5,"recensioni":133,"lat":44.07603,"lng":12.32865,"slug":"casa-dei-grilli"},
-{"nome":"Welcome Ca' ad Scarplen","comune":"Longiano","voto":9.5,"recensioni":47,"lat":44.08667,"lng":12.34832,"slug":"welcome-ca-ad-scarplen"},
-{"nome":"Beau Rivage Suite Apartment","comune":"Santarcangelo di Romagna","voto":9.5,"recensioni":21,"lat":44.06679,"lng":12.45071,"slug":"beau-rivage-suite-apartment-in-villa"}
+ {
+  "nome": "la cana dolce",
+  "comune": "Bertinoro",
+  "voto": 9.4,
+  "recensioni": 158,
+  "lat": 44.14582,
+  "lng": 12.14168,
+  "slug": "la-cana-dolce"
+ },
+ {
+  "nome": "Hotel Panorama",
+  "comune": "Bertinoro",
+  "voto": 9.2,
+  "recensioni": 134,
+  "lat": 44.14928,
+  "lng": 12.13388,
+  "slug": "panorama-bertinoro"
+ },
+ {
+  "nome": "Agriturismo al Colle",
+  "comune": "Capocolle di Bertinoro",
+  "voto": 8.9,
+  "recensioni": 162,
+  "lat": 44.15738,
+  "lng": 12.18333,
+  "slug": "agriturismo-al-colle"
+ },
+ {
+  "nome": "Il Vigneto Cottage",
+  "comune": "Bertinoro",
+  "voto": 9.1,
+  "recensioni": 20,
+  "lat": 44.16199,
+  "lng": 12.12741,
+  "slug": "il-vigneto-cottage"
+ },
+ {
+  "nome": "Ca' Bevilacqua Bed & Breakfast",
+  "comune": "Santa Maria Nuova di Bertinoro",
+  "voto": 9.7,
+  "recensioni": 79,
+  "lat": 44.21351,
+  "lng": 12.19958,
+  "slug": "ca-39-bevilacqua-bed-amp-breakfast"
+ },
+ {
+  "nome": "Novecento",
+  "comune": "Bertinoro",
+  "voto": 9.7,
+  "recensioni": 20,
+  "lat": 44.14826,
+  "lng": 12.13451,
+  "slug": "romagnabnb-novecento"
+ },
+ {
+  "nome": "Agriturismo 7 Colonne",
+  "comune": "Bertinoro",
+  "voto": 9.1,
+  "recensioni": 73,
+  "lat": 44.14862,
+  "lng": 12.14805,
+  "slug": "agriturismo-7-colonne"
+ },
+ {
+  "nome": "Residence Villa degli Ulivi",
+  "comune": "Bertinoro",
+  "voto": 9.4,
+  "recensioni": 29,
+  "lat": 44.14957,
+  "lng": 12.1112,
+  "slug": "residence-villa-degli-ulivi"
+ },
+ {
+  "nome": "Hotel Fontanelle",
+  "comune": "Fratta Terme",
+  "voto": 8.7,
+  "recensioni": 215,
+  "lat": 44.14155,
+  "lng": 12.10077,
+  "slug": "fontanelle-fratta-terme"
+ },
+ {
+  "nome": "BeB Montefratta",
+  "comune": "Fratta Terme",
+  "voto": 9.5,
+  "recensioni": 113,
+  "lat": 44.1453,
+  "lng": 12.09635,
+  "slug": "beb-montefratta"
+ },
+ {
+  "nome": "Locanda Alla Mano",
+  "comune": "Forlimpopoli",
+  "voto": 9.1,
+  "recensioni": 196,
+  "lat": 44.19082,
+  "lng": 12.12907,
+  "slug": "locanda-alla-mano"
+ },
+ {
+  "nome": "Quel Castello di Diegaro",
+  "comune": "Diegaro di Cesena",
+  "voto": 9.3,
+  "recensioni": 262,
+  "lat": 44.15553,
+  "lng": 12.18903,
+  "slug": "locanda-del-castello-diegaro-di-cesena"
+ },
+ {
+  "nome": "Pecoranera",
+  "comune": "Cesena",
+  "voto": 9.7,
+  "recensioni": 52,
+  "lat": 44.13128,
+  "lng": 12.15578,
+  "slug": "pecoranera"
+ },
+ {
+  "nome": "Elegant 2-Suite Residence",
+  "comune": "Castrocaro Terme",
+  "voto": 9.8,
+  "recensioni": 14,
+  "lat": 44.1752,
+  "lng": 11.94736,
+  "slug": "elegant-2-suite-residence-near-the-thermal-baths"
+ },
+ {
+  "nome": "Le Stagioni Luxury Suite",
+  "comune": "Forlì",
+  "voto": 9.6,
+  "recensioni": 231,
+  "lat": 44.22741,
+  "lng": 12.04291,
+  "slug": "chalet-dei-boschi"
+ },
+ {
+  "nome": "Locanda Appennino",
+  "comune": "Predappio",
+  "voto": 9.5,
+  "recensioni": 150,
+  "lat": 44.08737,
+  "lng": 11.97782,
+  "slug": "locanda-appennino"
+ },
+ {
+  "nome": "Agriturismo Ceriano",
+  "comune": "Modigliana",
+  "voto": 9.5,
+  "recensioni": 131,
+  "lat": 44.1575,
+  "lng": 11.81075,
+  "slug": "agriturismo-ceriano"
+ },
+ {
+  "nome": "L'Ultimo Piano B&B",
+  "comune": "Forlì",
+  "voto": 9.5,
+  "recensioni": 13,
+  "lat": 44.22139,
+  "lng": 12.03158,
+  "slug": "ultimo-piano-b-amp-b-forli"
+ },
+ {
+  "nome": "La Locanda della Campanara",
+  "comune": "Galeata",
+  "voto": 9.5,
+  "recensioni": 431,
+  "lat": 43.98543,
+  "lng": 11.90584,
+  "slug": "la-locanda-della-campanara"
+ },
+ {
+  "nome": "La Melagrana",
+  "comune": "Marradi",
+  "voto": 9.9,
+  "recensioni": 39,
+  "lat": 44.16604,
+  "lng": 11.69073,
+  "slug": "la-melagrana-brisighella"
+ },
+ {
+  "nome": "Agriturismo Popolano di Sotto",
+  "comune": "Marradi",
+  "voto": 9.6,
+  "recensioni": 80,
+  "lat": 44.09896,
+  "lng": 11.65448,
+  "slug": "agriturismo-popolano-di-sotto"
+ },
+ {
+  "nome": "Agriturismo Camponovo",
+  "comune": "Brisighella",
+  "voto": 9.4,
+  "recensioni": 134,
+  "lat": 44.18849,
+  "lng": 11.89027,
+  "slug": "agriturismo-camponovo"
+ },
+ {
+  "nome": "Riva Quartarola",
+  "comune": "Modigliana",
+  "voto": 9.2,
+  "recensioni": 17,
+  "lat": 44.15415,
+  "lng": 11.7921,
+  "slug": "quartarola-al-fiume"
+ },
+ {
+  "nome": "Agriturismo Contea di Val d'Amone",
+  "comune": "Brisighella",
+  "voto": 9.2,
+  "recensioni": 287,
+  "lat": 44.24309,
+  "lng": 11.81149,
+  "slug": "agriturismo-contea-valdamone"
+ },
+ {
+  "nome": "Bellosguardo Resort",
+  "comune": "Modigliana",
+  "voto": 9,
+  "recensioni": 164,
+  "lat": 44.1613,
+  "lng": 11.78246,
+  "slug": "bellosguardo-resort"
+ },
+ {
+  "nome": "Agriturismo Torre del Marino",
+  "comune": "Brisighella",
+  "voto": 9.5,
+  "recensioni": 188,
+  "lat": 44.25265,
+  "lng": 11.75858,
+  "slug": "torre-del-marino"
+ },
+ {
+  "nome": "Locanda La Cavallina",
+  "comune": "Brisighella",
+  "voto": 9,
+  "recensioni": 198,
+  "lat": 44.21885,
+  "lng": 11.76947,
+  "slug": "locanda-la-cavallina"
+ },
+ {
+  "nome": "B&B Orto di Borghi",
+  "comune": "Faenza",
+  "voto": 9.9,
+  "recensioni": 10,
+  "lat": 44.31496,
+  "lng": 11.94937,
+  "slug": "b-amp-b-orto-di-borghi"
+ },
+ {
+  "nome": "La Suite Faenza",
+  "comune": "Faenza",
+  "voto": 9.8,
+  "recensioni": 40,
+  "lat": 44.2846,
+  "lng": 11.89875,
+  "slug": "la-suite-faenza"
+ },
+ {
+  "nome": "Elegante torretta in centro",
+  "comune": "Faenza",
+  "voto": 9.4,
+  "recensioni": 65,
+  "lat": 44.28732,
+  "lng": 11.88506,
+  "slug": "elegante-torretta-in-centro"
+ },
+ {
+  "nome": "Dolce Casetta",
+  "comune": "Faenza",
+  "voto": 9.4,
+  "recensioni": 104,
+  "lat": 44.35093,
+  "lng": 11.92222,
+  "slug": "dolce-casetta"
+ },
+ {
+  "nome": "Casa della Pesa",
+  "comune": "Faenza",
+  "voto": 9.3,
+  "recensioni": 50,
+  "lat": 44.29071,
+  "lng": 11.88397,
+  "slug": "appartamento-faenza-faenza"
+ },
+ {
+  "nome": "Le Suite di Faenza",
+  "comune": "Faenza",
+  "voto": 9.2,
+  "recensioni": 102,
+  "lat": 44.28513,
+  "lng": 11.88446,
+  "slug": "le-suite-di-faenza"
+ },
+ {
+  "nome": "Affittacamere Mark",
+  "comune": "Faenza",
+  "voto": 9.2,
+  "recensioni": 139,
+  "lat": 44.28241,
+  "lng": 11.88843,
+  "slug": "b-amp-b-mark"
+ },
+ {
+  "nome": "B&B Nadine Forlì",
+  "comune": "Forlì",
+  "voto": 9.9,
+  "recensioni": 184,
+  "lat": 44.23892,
+  "lng": 12.11954,
+  "slug": "b-amp-b-nadine"
+ },
+ {
+  "nome": "The Suite Romagna Central Apartment",
+  "comune": "Forlì",
+  "voto": 9.7,
+  "recensioni": 42,
+  "lat": 44.2083,
+  "lng": 12.10788,
+  "slug": "forli-sud-romagna-central-suite-apartment-parking"
+ },
+ {
+  "nome": "Ca Veja Room & Breakfast",
+  "comune": "Forlì",
+  "voto": 9.7,
+  "recensioni": 25,
+  "lat": 44.21406,
+  "lng": 12.08795,
+  "slug": "ca-veja-b-amp-b-forli"
+ },
+ {
+  "nome": "B&B Amo'",
+  "comune": "Forlì",
+  "voto": 9.7,
+  "recensioni": 43,
+  "lat": 44.20471,
+  "lng": 12.05615,
+  "slug": "b-amp-b-amo"
+ },
+ {
+  "nome": "B&B Casa Dodo Luxury",
+  "comune": "Forlì",
+  "voto": 9.6,
+  "recensioni": 27,
+  "lat": 44.2267,
+  "lng": 12.04033,
+  "slug": "casa-dodo-paradiso-luxury"
+ },
+ {
+  "nome": "Forlì Park View",
+  "comune": "Forlì",
+  "voto": 9.6,
+  "recensioni": 21,
+  "lat": 44.21555,
+  "lng": 12.04913,
+  "slug": "vista-sulle-colline"
+ },
+ {
+  "nome": "La Canova",
+  "comune": "Predappio",
+  "voto": 9.4,
+  "recensioni": 21,
+  "lat": 44.13362,
+  "lng": 11.97681,
+  "slug": "la-canova-provincia-di-forli-cesena"
+ },
+ {
+  "nome": "Casa Schiavoni",
+  "comune": "Predappio",
+  "voto": 9.4,
+  "recensioni": 190,
+  "lat": 44.13221,
+  "lng": 12.00421,
+  "slug": "casa-schiavoni"
+ },
+ {
+  "nome": "Le Stanze di Kamà",
+  "comune": "Cesena",
+  "voto": 9.7,
+  "recensioni": 155,
+  "lat": 44.13504,
+  "lng": 12.23607,
+  "slug": "le-stlnze-di-klml"
+ },
+ {
+  "nome": "La Dimora di Kamà",
+  "comune": "Cesena",
+  "voto": 9.5,
+  "recensioni": 68,
+  "lat": 44.13671,
+  "lng": 12.24619,
+  "slug": "ll-dimorl-di-klml"
+ },
+ {
+  "nome": "B&B Antico Sentiero",
+  "comune": "Cesena",
+  "voto": 9.5,
+  "recensioni": 23,
+  "lat": 44.1183,
+  "lng": 12.26401,
+  "slug": "b-amp-b-antico-sentiero"
+ },
+ {
+  "nome": "Casale del Fattore",
+  "comune": "Longiano",
+  "voto": 9.5,
+  "recensioni": 85,
+  "lat": 44.14765,
+  "lng": 12.34946,
+  "slug": "casale-del-fattore"
+ },
+ {
+  "nome": "Casa delle Ginestre",
+  "comune": "Cesena",
+  "voto": 9.5,
+  "recensioni": 20,
+  "lat": 44.07487,
+  "lng": 12.21161,
+  "slug": "casa-delle-ginestre-cesena1"
+ },
+ {
+  "nome": "Podere Selvatici",
+  "comune": "Imola",
+  "voto": 9.8,
+  "recensioni": 166,
+  "lat": 44.34505,
+  "lng": 11.73827,
+  "slug": "podere-selvatici"
+ },
+ {
+  "nome": "Le Suite del Vicolo",
+  "comune": "Imola",
+  "voto": 9.7,
+  "recensioni": 77,
+  "lat": 44.35499,
+  "lng": 11.71612,
+  "slug": "double-suite-charmant"
+ },
+ {
+  "nome": "Il Ghiandolino",
+  "comune": "Imola",
+  "voto": 9.6,
+  "recensioni": 96,
+  "lat": 44.30754,
+  "lng": 11.7155,
+  "slug": "il-ghiandolino"
+ },
+ {
+  "nome": "Tosa Welcome",
+  "comune": "Imola",
+  "voto": 9.5,
+  "recensioni": 176,
+  "lat": 44.33451,
+  "lng": 11.69845,
+  "slug": "tosa-welcome"
+ },
+ {
+  "nome": "La casa di Hermes",
+  "comune": "Imola",
+  "voto": 9.5,
+  "recensioni": 109,
+  "lat": 44.35561,
+  "lng": 11.71192,
+  "slug": "la-casa-di-hermes"
+ },
+ {
+  "nome": "Ca' Spadoni",
+  "comune": "Imola",
+  "voto": 9.4,
+  "recensioni": 193,
+  "lat": 44.35452,
+  "lng": 11.71192,
+  "slug": "a-ca-spadoni-imola"
+ },
+ {
+  "nome": "Casina Morgana B&B",
+  "comune": "Sarsina",
+  "voto": 9.9,
+  "recensioni": 41,
+  "lat": 43.87893,
+  "lng": 12.28569,
+  "slug": "casina-morgana"
+ },
+ {
+  "nome": "B&B Al Tardino",
+  "comune": "Mercato Saraceno",
+  "voto": 9.8,
+  "recensioni": 27,
+  "lat": 44.02121,
+  "lng": 12.27962,
+  "slug": "b-amp-b-al-tardino"
+ },
+ {
+  "nome": "Fra Bosco e Cielo B&B",
+  "comune": "Mercato Saraceno",
+  "voto": 9.7,
+  "recensioni": 36,
+  "lat": 43.9313,
+  "lng": 12.19269,
+  "slug": "fra-bosco-e-cielo-b-amp-b"
+ },
+ {
+  "nome": "Oltretempo Agriturismo",
+  "comune": "Bagno di Romagna",
+  "voto": 9.7,
+  "recensioni": 24,
+  "lat": 43.94344,
+  "lng": 12.07731,
+  "slug": "oltretempo-agriturismo"
+ },
+ {
+  "nome": "Il Giardino dei Frati",
+  "comune": "Longiano",
+  "voto": 9.7,
+  "recensioni": 46,
+  "lat": 44.04094,
+  "lng": 12.31531,
+  "slug": "il-giardino-dei-frati"
+ },
+ {
+  "nome": "Podere Casone",
+  "comune": "Marradi",
+  "voto": 9.7,
+  "recensioni": 72,
+  "lat": 44.0966,
+  "lng": 11.68592,
+  "slug": "podere-casone"
+ },
+ {
+  "nome": "Palazzo Torriani",
+  "comune": "Marradi",
+  "voto": 9.6,
+  "recensioni": 87,
+  "lat": 44.07643,
+  "lng": 11.6135,
+  "slug": "palazzo-torriani"
+ },
+ {
+  "nome": "La Chiocciola Apartments",
+  "comune": "Santarcangelo di Romagna",
+  "voto": 9.6,
+  "recensioni": 26,
+  "lat": 44.05806,
+  "lng": 12.44017,
+  "slug": "la-chiocciola-apartments"
+ },
+ {
+  "nome": "B&B Casa dei Grilli",
+  "comune": "Longiano",
+  "voto": 9.5,
+  "recensioni": 133,
+  "lat": 44.07603,
+  "lng": 12.32865,
+  "slug": "casa-dei-grilli"
+ },
+ {
+  "nome": "Welcome Ca' ad Scarplen",
+  "comune": "Longiano",
+  "voto": 9.5,
+  "recensioni": 47,
+  "lat": 44.08667,
+  "lng": 12.34832,
+  "slug": "welcome-ca-ad-scarplen"
+ },
+ {
+  "nome": "Beau Rivage Suite Apartment",
+  "comune": "Santarcangelo di Romagna",
+  "voto": 9.5,
+  "recensioni": 21,
+  "lat": 44.06679,
+  "lng": 12.45071,
+  "slug": "beau-rivage-suite-apartment-in-villa"
+ },
+ {
+  "nome": "Chez Papa Appartamenti – Chez Coco",
+  "comune": "Ravenna",
+  "voto": 9.8,
+  "recensioni": 51,
+  "lat": 44.41604,
+  "lng": 12.1998,
+  "slug": "chez-papa-appartamenti-chez-coco"
+ },
+ {
+  "nome": "ComfortHouse la tua estate",
+  "comune": "Ravenna",
+  "voto": 9.7,
+  "recensioni": 86,
+  "lat": 44.39996,
+  "lng": 12.2138,
+  "slug": "comfort-house-con-balcone"
+ },
+ {
+  "nome": "Noua Living Boutique Apartments",
+  "comune": "Ravenna",
+  "voto": 9.7,
+  "recensioni": 149,
+  "lat": 44.41089,
+  "lng": 12.20189,
+  "slug": "nua-luxury-apartments"
+ },
+ {
+  "nome": "B&B Abracadabra",
+  "comune": "Ghibullo",
+  "voto": 9.6,
+  "recensioni": 123,
+  "lat": 44.33361,
+  "lng": 12.14608,
+  "slug": "b-amp-b-abracadabra"
+ },
+ {
+  "nome": "Residence Corte Bizantina",
+  "comune": "Ravenna",
+  "voto": 9.6,
+  "recensioni": 296,
+  "lat": 44.42118,
+  "lng": 12.20064,
+  "slug": "residence-corte-bizantina"
+ },
+ {
+  "nome": "Villa Matilde Ravenna",
+  "comune": "Fornace Zarattini",
+  "voto": 9.4,
+  "recensioni": 126,
+  "lat": 44.41582,
+  "lng": 12.14738,
+  "slug": "villa-matilde-fornace-zarattini1"
+ },
+ {
+  "nome": "Ca del Papa Country House",
+  "comune": "Santa Sofia",
+  "voto": 9.8,
+  "recensioni": 19,
+  "lat": 43.95806,
+  "lng": 11.88685,
+  "slug": "ca-del-papa"
+ },
+ {
+  "nome": "La Grande Quercia",
+  "comune": "Provincia di Forlì-Cesena",
+  "voto": 9.6,
+  "recensioni": 19,
+  "lat": 44.01997,
+  "lng": 11.86224,
+  "slug": "la-grande-quercia-provincia-di-forli-cesena"
+ },
+ {
+  "nome": "Borgo Spescia La Teodorico",
+  "comune": "Santa Sofia",
+  "voto": 9.6,
+  "recensioni": 25,
+  "lat": 43.95391,
+  "lng": 11.86366,
+  "slug": "borgo-spescia-il-teodorico-piscina-parco-relax"
+ },
+ {
+  "nome": "Agriturismo Terrazza sul Parco",
+  "comune": "Bagno di Romagna",
+  "voto": 9.5,
+  "recensioni": 40,
+  "lat": 43.88816,
+  "lng": 11.95925,
+  "slug": "agriturismo-terrazza-sul-parco"
+ },
+ {
+  "nome": "Il Pettirosso",
+  "comune": "Santarcangelo di Romagna",
+  "voto": 9.6,
+  "recensioni": 235,
+  "lat": 44.02874,
+  "lng": 12.44373,
+  "slug": "il-pettirosso-provincia-di-rimini"
+ },
+ {
+  "nome": "Ca Baruffa B&B",
+  "comune": "Provincia di Rimini",
+  "voto": 9.5,
+  "recensioni": 60,
+  "lat": 44.03082,
+  "lng": 12.44119,
+  "slug": "ca-baruffa-b-amp-b"
+ },
+ {
+  "nome": "DelleFarfalle Boutique B&B",
+  "comune": "Santarcangelo di Romagna",
+  "voto": 9.5,
+  "recensioni": 91,
+  "lat": 44.05863,
+  "lng": 12.44494,
+  "slug": "dellefarfalle"
+ },
+ {
+  "nome": "B&B Bella di Notte",
+  "comune": "Provincia di Ravenna",
+  "voto": 9.8,
+  "recensioni": 25,
+  "lat": 44.43517,
+  "lng": 11.93166,
+  "slug": "b-amp-b-bella-di-notte"
+ },
+ {
+  "nome": "Antica Corte Lugo",
+  "comune": "Lugo",
+  "voto": 9.8,
+  "recensioni": 131,
+  "lat": 44.42129,
+  "lng": 11.90988,
+  "slug": "antica-corte-lugo"
+ },
+ {
+  "nome": "Palazzo Glicine",
+  "comune": "Cotignola",
+  "voto": 9.8,
+  "recensioni": 90,
+  "lat": 44.38558,
+  "lng": 11.94264,
+  "slug": "palazzo-glicine"
+ },
+ {
+  "nome": "Casa Ballardini",
+  "comune": "Lugo",
+  "voto": 9.7,
+  "recensioni": 22,
+  "lat": 44.41741,
+  "lng": 11.90963,
+  "slug": "appartamento-nuovo-lugo-centro"
+ },
+ {
+  "nome": "B&B Le Suite del Corso",
+  "comune": "Lugo",
+  "voto": 9.7,
+  "recensioni": 43,
+  "lat": 44.41757,
+  "lng": 11.90851,
+  "slug": "b-amp-b-lugo"
+ }
 ]

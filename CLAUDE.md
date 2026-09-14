@@ -6,7 +6,7 @@ Contesto per chi lavora su questo repo (persone o agenti).
 
 **Dove portare Lele a bere: una guida pratica** — sito statico che elenca le cantine
 entro **un'ora di auto da Forlì**, con voto Google, costo della degustazione, contatti,
-posizione su mappa e i tre alloggi Booking più vicini.
+posizione su mappa e i cinque alloggi Booking più vicini.
 
 Sito pubblico, pensato per GitHub Pages. Nessuna build, nessun framework, nessuna API key.
 
@@ -61,15 +61,19 @@ Un array di oggetti. Campi obbligatori in **grassetto**.
 
 ## Schema dati — `data/alloggi.json`
 
-`nome`, `comune`, `voto` (scala Booking 0–10), `recensioni`, `lat`, `lng`, `slug`.
+`nome`, `comune`, `voto` (scala Booking 0–10, mai sotto 8), `recensioni`, `lat`, `lng`, `slug`.
 
 Lo `slug` è l'ultimo segmento dell'URL Booking: da
 `booking.com/hotel/it/`**`panorama-bertinoro`**`.it.html`.
 L'app costruisce il link da lì, non memorizzare URL interi.
 
-Gli alloggi **non** sono legati a una cantina specifica: `app.js` calcola a runtime i tre
-più vicini in linea d'aria. Aggiungere una struttura al file la rende disponibile a tutte
-le cantine vicine, senza toccare altro.
+Gli alloggi **non** sono legati a una cantina specifica: `app.js` calcola a runtime i più
+vicini in linea d'aria. Quanti ne mostra lo decide la costante `ALLOGGI_PER_CANTINA`
+in cima a `app.js` — cambiarla è l'unica modifica necessaria. Aggiungere una struttura
+al file la rende disponibile a tutte le cantine vicine, senza toccare altro.
+
+La soglia "voto sopra 8" è una promessa fatta in pagina: ogni struttura che entra nel
+file deve rispettarla. Le ricerche Booking si fanno con `&nflt=review_score%3D80`.
 
 ## Principi da rispettare
 

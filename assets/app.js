@@ -6,7 +6,7 @@
  */
 
 const ORIGINE = { nome: 'Forlì', lat: 44.22266, lng: 12.04068 };
-const ALLOGGI_PER_CANTINA = 3;
+const ALLOGGI_PER_CANTINA = 5;
 
 const stato = {
   cantine: [],
