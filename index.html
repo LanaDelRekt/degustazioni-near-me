@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dove portare Lele a bere: una guida pratica</title>
+<meta name="description" content="Tutte le cantine entro un'ora di auto da Forlì: voto Google, costo della degustazione, contatti, mappa e dove dormire lì vicino.">
+<meta property="og:title" content="Dove portare Lele a bere: una guida pratica">
+<meta property="og:description" content="Cantine entro un'ora di auto da Forlì, con voti Google, prezzi delle degustazioni e alloggi vicini.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍷</text></svg>">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <p class="kicker">Romagna · entro 1 ora di auto da Forlì</p>
+    <h1>Dove portare Lele a bere</h1>
+    <p class="sub">Una guida pratica. <span id="conteggio-hero">—</span> cantine, con voto Google, costo della degustazione,
+       contatti, posizione e tre posti dove dormire lì vicino.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="pannello" aria-label="Filtri">
+    <div class="filtri">
+      <label class="campo campo-cerca">
+        <span>Cerca</span>
+        <input type="search" id="f-testo" placeholder="nome, comune, vitigno…" autocomplete="off">
+      </label>
+
+      <label class="campo">
+        <span>Cosa vuoi bere</span>
+        <select id="f-vitigno"><option value="">Tutto</option></select>
+      </label>
+
+      <label class="campo">
+        <span>Tipologia</span>
+        <select id="f-tipologia"><option value="">Tutte</option></select>
+      </label>
+
+      <label class="campo">
+        <span>Zona</span>
+        <select id="f-zona"><option value="">Tutte</option></select>
+      </label>
+
+      <label class="campo">
+        <span>Entro <output id="f-minuti-out">60</output> min da Forlì</span>
+        <input type="range" id="f-minuti" min="10" max="60" step="5" value="60">
+      </label>
+
+      <label class="campo">
+        <span>Voto Google min. <output id="f-voto-out">0</output></span>
+        <input type="range" id="f-voto" min="0" max="5" step="0.1" value="0">
+      </label>
+
+      <label class="campo">
+        <span>Ordina per</span>
+        <select id="f-ordine">
+          <option value="distanza">Distanza da Forlì</option>
+          <option value="voto">Voto Google</option>
+          <option value="recensioni">Numero di recensioni</option>
+          <option value="prezzo">Prezzo degustazione</option>
+          <option value="nome">Nome</option>
+        </select>
+      </label>
+
+      <div class="campo campo-toggle">
+        <span>Solo…</span>
+        <div class="toggles">
+          <label><input type="checkbox" id="f-bio"> biologiche</label>
+          <label><input type="checkbox" id="f-prezzo"> con prezzo noto</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="pannello-foot">
+      <p id="conteggio" class="conteggio">—</p>
+      <button type="button" id="reset" class="link-btn">Azzera filtri</button>
+    </div>
+  </section>
+
+  <section class="mappa-sez" aria-label="Mappa delle cantine">
+    <div id="mappa"></div>
+    <p class="nota-mappa">Clicca un pallino per la scheda. I numeri nei cerchi sono il voto Google.</p>
+  </section>
+
+  <section id="lista" class="lista" aria-live="polite"></section>
+
+  <section class="metodo">
+    <h2>Come è fatta questa lista</h2>
+    <ul>
+      <li><strong>Distanza e tempo</strong> sono reali, calcolati su strada da Piazza Saffi a Forlì con il router open source OSRM — non in linea d'aria.</li>
+      <li><strong>Voto Google</strong> e numero di recensioni sono stati letti dalle schede Google Maps delle aziende. Cambiano nel tempo: il dato è una fotografia, non un valore fisso.</li>
+      <li><strong>Costo della degustazione</strong> è indicato solo dove l'azienda o una piattaforma di prenotazione lo pubblica. Dove manca, significa che va chiesto: quasi tutte queste cantine ricevono su appuntamento e il prezzo dipende dalla formula.</li>
+      <li><strong>Numero di vini in catalogo</strong> è compilato solo dove il sito dell'azienda elenca le etichette in modo verificabile.</li>
+      <li><strong>Vitigni</strong> sono indicativi e servono a filtrare, non sono l'elenco completo della produzione.</li>
+      <li><strong>Dove dormire</strong>: le tre strutture più vicine a ciascuna cantina, prese da Booking con voto superiore a 8. La distanza indicata è in linea d'aria.</li>
+    </ul>
+    <p class="disclaimer">Prima di partire chiama sempre: gli orari delle piccole cantine cambiano di continuo. E se degusti, guida qualcun altro.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Dati aggiornati a settembre 2026 · Mappa <a href="https://leafletjs.com/">Leaflet</a> con tiles <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · Tempi di percorrenza <a href="http://project-osrm.org/">OSRM</a></p>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

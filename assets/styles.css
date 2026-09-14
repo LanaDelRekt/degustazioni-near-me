@@ -1,0 +1,262 @@
+:root {
+  --sfondo: #fbf7f4;
+  --sfondo-2: #ffffff;
+  --sfondo-3: #f2ebe6;
+  --testo: #241b1d;
+  --testo-2: #6b5b5f;
+  --bordo: #e3d7d1;
+  --vino: #8c1d3f;
+  --vino-2: #b23a5c;
+  --oro: #b8860b;
+  --verde-ok: #2f6b46;
+  --ombra: 0 1px 2px rgba(36, 27, 29, .06), 0 8px 24px rgba(36, 27, 29, .06);
+  --raggio: 14px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --sfondo: #161113;
+    --sfondo-2: #1f1719;
+    --sfondo-3: #2a2023;
+    --testo: #f2e9ea;
+    --testo-2: #b09ea3;
+    --bordo: #3a2c30;
+    --vino: #e0819b;
+    --vino-2: #f0a7bb;
+    --oro: #e0b44c;
+    --verde-ok: #74c496;
+    --ombra: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px rgba(0, 0, 0, .3);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--sfondo);
+  color: var(--testo);
+  font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+a { color: var(--vino); }
+h1, h2, h3 { line-height: 1.2; margin: 0; }
+
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+
+/* ---------- header ---------- */
+.site-header {
+  background: linear-gradient(160deg, var(--sfondo-3), var(--sfondo));
+  border-bottom: 1px solid var(--bordo);
+  padding: 44px 0 36px;
+}
+.kicker {
+  margin: 0 0 10px;
+  font-size: .78rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--vino);
+  font-weight: 600;
+}
+.site-header h1 {
+  font-size: clamp(2rem, 5vw, 3.1rem);
+  letter-spacing: -.02em;
+}
+.sub {
+  margin: 14px 0 0;
+  max-width: 62ch;
+  color: var(--testo-2);
+  font-size: 1.05rem;
+}
+
+/* ---------- pannello filtri ---------- */
+.pannello {
+  background: var(--sfondo-2);
+  border: 1px solid var(--bordo);
+  border-radius: var(--raggio);
+  box-shadow: var(--ombra);
+  padding: 18px;
+  margin: 28px 0;
+}
+.filtri {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+}
+.campo-cerca { grid-column: span 2; }
+@media (max-width: 640px) { .campo-cerca { grid-column: span 1; } }
+
+.campo { display: flex; flex-direction: column; gap: 6px; }
+.campo > span {
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: var(--testo-2);
+}
+.campo input[type="search"],
+.campo select {
+  width: 100%;
+  padding: 9px 11px;
+  font: inherit;
+  color: var(--testo);
+  background: var(--sfondo);
+  border: 1px solid var(--bordo);
+  border-radius: 9px;
+}
+.campo input[type="range"] { width: 100%; accent-color: var(--vino); }
+.campo input[type="search"]:focus-visible,
+.campo select:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--vino);
+  outline-offset: 2px;
+}
+.toggles { display: flex; flex-wrap: wrap; gap: 14px; padding-top: 6px; }
+.toggles label {
+  display: flex; align-items: center; gap: 6px;
+  font-size: .92rem; color: var(--testo);
+}
+.toggles input { accent-color: var(--vino); }
+
+.pannello-foot {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; flex-wrap: wrap;
+  margin-top: 16px; padding-top: 14px;
+  border-top: 1px solid var(--bordo);
+}
+.conteggio { margin: 0; font-size: .92rem; color: var(--testo-2); }
+.conteggio strong { color: var(--testo); }
+.link-btn {
+  background: none; border: 0; padding: 0;
+  font: inherit; color: var(--vino);
+  text-decoration: underline; cursor: pointer;
+}
+
+/* ---------- mappa ---------- */
+.mappa-sez { margin-bottom: 30px; }
+#mappa {
+  height: 62vh;
+  min-height: 380px;
+  border: 1px solid var(--bordo);
+  border-radius: var(--raggio);
+  box-shadow: var(--ombra);
+  background: var(--sfondo-3);
+  z-index: 0;
+}
+.nota-mappa { margin: 8px 2px 0; font-size: .85rem; color: var(--testo-2); }
+
+.pin {
+  display: grid; place-items: center;
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  background: var(--vino);
+  color: #fff;
+  font-size: .78rem; font-weight: 700;
+  border: 2px solid var(--sfondo-2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .35);
+}
+.pin.alta { background: var(--oro); color: #241b1d; }
+.pin.evidenza { transform: scale(1.35); z-index: 1000 !important; }
+.leaflet-popup-content { font: inherit; margin: 12px 14px; }
+.leaflet-popup-content b { display: block; font-size: 1rem; }
+.leaflet-popup-content .pop-meta { color: #555; font-size: .85rem; }
+
+/* ---------- lista ---------- */
+.lista {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+}
+.card {
+  display: flex; flex-direction: column;
+  background: var(--sfondo-2);
+  border: 1px solid var(--bordo);
+  border-radius: var(--raggio);
+  box-shadow: var(--ombra);
+  padding: 18px;
+  scroll-margin-top: 20px;
+}
+.card.evidenza { border-color: var(--vino); }
+.card-top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+.card h3 { font-size: 1.16rem; letter-spacing: -.01em; }
+.luogo { margin: 3px 0 0; font-size: .88rem; color: var(--testo-2); }
+
+.voto { text-align: right; flex-shrink: 0; }
+.stelle { color: var(--oro); font-size: .95rem; letter-spacing: .5px; white-space: nowrap; }
+.voto-num { font-weight: 700; font-size: .95rem; }
+.voto-rec { display: block; font-size: .75rem; color: var(--testo-2); }
+
+.badge-riga { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0; }
+.badge {
+  font-size: .76rem; font-weight: 600;
+  padding: 3px 9px; border-radius: 999px;
+  background: var(--sfondo-3); color: var(--testo-2);
+  border: 1px solid var(--bordo);
+}
+.badge.bio { color: var(--verde-ok); border-color: currentColor; }
+.badge.prezzo { color: var(--vino); border-color: currentColor; }
+
+.descr { margin: 12px 0 0; font-size: .93rem; color: var(--testo); }
+
+.dati { margin: 14px 0 0; border-top: 1px solid var(--bordo); }
+.dati div {
+  display: flex; justify-content: space-between; gap: 12px;
+  padding: 7px 0; font-size: .88rem;
+  border-bottom: 1px solid var(--bordo);
+}
+.dati dt, .dati .k { color: var(--testo-2); }
+.dati .v { font-weight: 600; text-align: right; }
+.dati .v.na { font-weight: 400; color: var(--testo-2); font-style: italic; }
+
+.azioni { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.azioni a {
+  font-size: .85rem; font-weight: 600; text-decoration: none;
+  padding: 7px 12px; border-radius: 999px;
+  border: 1px solid var(--bordo);
+  color: var(--testo); background: var(--sfondo);
+}
+.azioni a.primaria { background: var(--vino); border-color: var(--vino); color: #fff; }
+.azioni a:hover { border-color: var(--vino); }
+
+.dormire { margin-top: 16px; padding-top: 12px; border-top: 1px dashed var(--bordo); }
+.dormire h4 {
+  margin: 0 0 8px; font-size: .74rem; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--testo-2);
+}
+.dormire ol { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.dormire li { display: flex; justify-content: space-between; gap: 10px; font-size: .86rem; align-items: baseline; }
+.dormire a { text-decoration: none; font-weight: 600; }
+.dormire a:hover { text-decoration: underline; }
+.dormire .meta { color: var(--testo-2); font-size: .78rem; white-space: nowrap; }
+.dormire .punteggio {
+  display: inline-block; min-width: 2.2em; text-align: center;
+  background: var(--vino); color: #fff;
+  border-radius: 6px; padding: 1px 5px;
+  font-size: .75rem; font-weight: 700;
+}
+
+.vuoto {
+  grid-column: 1 / -1;
+  padding: 40px 20px; text-align: center;
+  color: var(--testo-2);
+  border: 1px dashed var(--bordo); border-radius: var(--raggio);
+}
+
+/* ---------- metodo + footer ---------- */
+.metodo {
+  margin: 44px 0 0; padding: 24px;
+  background: var(--sfondo-2);
+  border: 1px solid var(--bordo);
+  border-radius: var(--raggio);
+}
+.metodo h2 { font-size: 1.3rem; margin-bottom: 12px; }
+.metodo ul { margin: 0; padding-left: 20px; }
+.metodo li { margin-bottom: 8px; font-size: .93rem; }
+.disclaimer { margin: 16px 0 0; font-size: .9rem; color: var(--testo-2); font-style: italic; }
+
+.site-footer {
+  margin-top: 48px; padding: 24px 0 40px;
+  border-top: 1px solid var(--bordo);
+  font-size: .84rem; color: var(--testo-2);
+}
+.site-footer p { margin: 0; }

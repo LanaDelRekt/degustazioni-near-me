@@ -1,0 +1,1620 @@
+[
+ {
+  "id": "cantina-forli-predappio",
+  "nome": "Cantina Forlì Predappio",
+  "comune": "Malmissole, Forlì",
+  "provincia": "FC",
+  "zona": "Forlì",
+  "lat": 44.2579319,
+  "lng": 12.0659672,
+  "google_rating": 4.5,
+  "google_recensioni": 120,
+  "sito": "https://www.cantinaforlipredappio.it",
+  "telefono": "+39 0543 477211",
+  "indirizzo": "Via Due Ponti, 13",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Trebbiano",
+   "Pagadebit"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "sfuso"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": false,
+  "descrizione": "Cantina sociale: non è la tappa da enoturismo d'autore, ma è il posto giusto per lo sfuso e per bottiglie quotidiane a prezzi bassi. Accesso libero in orario di apertura.",
+  "km_auto": 6.1,
+  "min_auto": 9
+ },
+ {
+  "id": "poggio-dogana",
+  "nome": "Poggio della Dogana",
+  "comune": "Castrocaro Terme",
+  "provincia": "FC",
+  "zona": "Castrocaro",
+  "lat": 44.1723403,
+  "lng": 11.9663805,
+  "google_rating": 5,
+  "google_recensioni": 10,
+  "sito": "https://www.poggiodelladogana.com",
+  "telefono": "+39 347 212 1158",
+  "indirizzo": "Via G. Mengozzi, 18",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Realtà recente sulle colline di Castrocaro, legata allo stesso gruppo di Ronchi di Castelluccio. Piccoli numeri, visite su appuntamento.",
+  "km_auto": 9.3,
+  "min_auto": 12
+ },
+ {
+  "id": "poderi-morini",
+  "nome": "Poderi Morini",
+  "comune": "Villanova, Forlì",
+  "provincia": "FC",
+  "zona": "Faenza",
+  "lat": 44.2518119,
+  "lng": 11.9731998,
+  "google_rating": 4.2,
+  "google_recensioni": 21,
+  "sito": "https://www.poderimorini.com",
+  "telefono": "+39 392 389 9626",
+  "indirizzo": "Viale Bologna, 412",
+  "vitigni": [
+   "Centesimino",
+   "Longanesi",
+   "Albana",
+   "Sangiovese"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": 17,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Specialisti di autoctoni romagnoli rari — Centesimino e Uva Longanesi in testa. Degustazioni prenotabili da circa 17 €.",
+  "km_auto": 9,
+  "min_auto": 13
+ },
+ {
+  "id": "pandolfa",
+  "nome": "Tenuta Pandolfa – Casa di Noelia",
+  "comune": "Fiumana di Predappio",
+  "provincia": "FC",
+  "zona": "Predappio",
+  "lat": 44.1364169,
+  "lng": 11.9782466,
+  "google_rating": 4.9,
+  "google_recensioni": 61,
+  "sito": "https://www.casadinoelia.it",
+  "telefono": "+39 0543 940073",
+  "indirizzo": "Via Pandolfa, 35",
+  "vitigni": [
+   "Sangiovese",
+   "Trebbiano"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "rosato"
+  ],
+  "bio": false,
+  "costo_degustazione": 32,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Tenuta con relais e ristorazione, casa anche del progetto Noelia Ricci. Programma di esperienze ampio: degustazioni, tour vigna-cantina, cucina.",
+  "km_auto": 12.3,
+  "min_auto": 16
+ },
+ {
+  "id": "drei-dona",
+  "nome": "Drei Donà – Tenuta La Palazza",
+  "comune": "Massa di Vecchiazzano, Forlì",
+  "provincia": "FC",
+  "zona": "Forlì",
+  "lat": 44.1777895,
+  "lng": 11.9870939,
+  "google_rating": 4.7,
+  "google_recensioni": 48,
+  "sito": "https://www.dreidona.it",
+  "telefono": "+39 0543 769371",
+  "indirizzo": "Via del Tesoro, 23",
+  "vitigni": [
+   "Sangiovese",
+   "Cabernet Sauvignon",
+   "Chardonnay"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "spumante"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": 10,
+  "su_prenotazione": true,
+  "descrizione": "Tenuta storica sulle prime colline forlivesi: Pruno e Graf Noir sono etichette che hanno costruito la reputazione internazionale del Sangiovese di Romagna.",
+  "km_auto": 7.4,
+  "min_auto": 16
+ },
+ {
+  "id": "pennita",
+  "nome": "Tenuta Pennita",
+  "comune": "Terra del Sole",
+  "provincia": "FC",
+  "zona": "Castrocaro",
+  "lat": 44.1942256,
+  "lng": 11.9490712,
+  "google_rating": 4.6,
+  "google_recensioni": 59,
+  "sito": "https://www.lapennita.it",
+  "telefono": "+39 348 233 3510",
+  "indirizzo": "Via Pianello, 34",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Vino e olio extravergine sulle colline di Terra del Sole, con frantoio aziendale: buona tappa se vuoi abbinare degustazione e spesa.",
+  "km_auto": 10.8,
+  "min_auto": 16
+ },
+ {
+  "id": "colombina",
+  "nome": "Azienda Agricola Colombina",
+  "comune": "Bertinoro",
+  "provincia": "FC",
+  "zona": "Bertinoro",
+  "lat": 44.1536699,
+  "lng": 12.1052647,
+  "google_rating": 4.8,
+  "google_recensioni": 150,
+  "sito": "https://www.colombina.it",
+  "telefono": "+39 0543 460658",
+  "indirizzo": "Via Trò Meldola, 1541",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Pagadebit"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Azienda molto frequentata tra Meldola e Bertinoro, con visite e degustazioni informali e un ottimo rapporto qualità-prezzo.",
+  "km_auto": 12.1,
+  "min_auto": 17
+ },
+ {
+  "id": "ca-rossa",
+  "nome": "Fattoria Ca' Rossa",
+  "comune": "Bertinoro",
+  "provincia": "FC",
+  "zona": "Bertinoro",
+  "lat": 44.1534013,
+  "lng": 12.1312099,
+  "google_rating": 4.8,
+  "google_recensioni": 100,
+  "sito": "https://www.fattoriacarossa.it",
+  "telefono": "+39 0543 445130",
+  "indirizzo": "Via Cellaimo, 735",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Barbera"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": 35,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Visite condotte dal titolare, con il vigneto di Albana più vecchio della zona (impianto 1935). Degustazioni da 3 o 5 vini con salumi e formaggi.",
+  "km_auto": 12.8,
+  "min_auto": 17
+ },
+ {
+  "id": "conde",
+  "nome": "Condé",
+  "comune": "Fiumana di Predappio",
+  "provincia": "FC",
+  "zona": "Predappio",
+  "lat": 44.1334777,
+  "lng": 11.9877107,
+  "google_rating": 4.6,
+  "google_recensioni": 143,
+  "sito": "https://www.conde.it",
+  "telefono": "+39 0543 940860",
+  "indirizzo": "Via Lucchina, 27",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Trebbiano"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "spumante"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Borgo-cantina ai piedi di Rocca delle Caminate, con ospitalità strutturata e visite guidate frequenti: una delle tappe più facili da organizzare in zona Predappio.",
+  "km_auto": 12.4,
+  "min_auto": 18
+ },
+ {
+  "id": "stefano-berti",
+  "nome": "Azienda Agricola Stefano Berti",
+  "comune": "Ravaldino in Monte, Forlì",
+  "provincia": "FC",
+  "zona": "Forlì",
+  "lat": 44.1451746,
+  "lng": 12.0329942,
+  "google_rating": 4.8,
+  "google_recensioni": 10,
+  "sito": "https://stefanoberti.blog",
+  "telefono": "+39 335 844 0104",
+  "indirizzo": "Via la Scagna, 18",
+  "vitigni": [
+   "Sangiovese"
+  ],
+  "tipologie": [
+   "rosso"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Azienda familiare di piccole dimensioni sulle colline sopra Forlì, concentrata quasi esclusivamente sul Sangiovese. Accoglienza informale, su appuntamento.",
+  "km_auto": 12.9,
+  "min_auto": 18
+ },
+ {
+  "id": "sadivino",
+  "nome": "SaDiVino – Orlandi",
+  "comune": "Predappio",
+  "provincia": "FC",
+  "zona": "Predappio",
+  "lat": 44.1200111,
+  "lng": 11.9737843,
+  "google_rating": 5,
+  "google_recensioni": 8,
+  "sito": "https://www.sadivino.com",
+  "telefono": "+39 366 594 9948",
+  "indirizzo": "Loc. Trivella, Strada S. Agostino, 16",
+  "vitigni": [
+   "Sangiovese"
+  ],
+  "tipologie": [
+   "rosso"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Produttore artigianale di Predappio, molto piccolo, con recensioni entusiaste ma numeri ridotti. Da prenotare con anticipo.",
+  "km_auto": 14,
+  "min_auto": 18
+ },
+ {
+  "id": "campodelsole",
+  "nome": "Campodelsole",
+  "comune": "Bertinoro",
+  "provincia": "FC",
+  "zona": "Bertinoro",
+  "lat": 44.1559934,
+  "lng": 12.1316061,
+  "google_rating": 4.9,
+  "google_recensioni": 32,
+  "sito": "https://www.campodelsole.it",
+  "telefono": "+39 0543 444562",
+  "indirizzo": "Via Cellaimo, 850",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Cantina moderna sul crinale di Bertinoro, con sala degustazione panoramica verso la costa.",
+  "km_auto": 12.9,
+  "min_auto": 18
+ },
+ {
+  "id": "neri-davide",
+  "nome": "Cantina Neri Davide",
+  "comune": "Bertinoro",
+  "provincia": "FC",
+  "zona": "Bertinoro",
+  "lat": 44.1549995,
+  "lng": 12.1201495,
+  "google_rating": 4.9,
+  "google_recensioni": 29,
+  "sito": "https://www.aziendaneri.it",
+  "telefono": "+39 333 275 7831",
+  "indirizzo": "Via Ausa, 621",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Pagadebit"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Azienda familiare bertinorese, piccola e ben valutata. Visite su appuntamento diretto col produttore.",
+  "km_auto": 12.5,
+  "min_auto": 18
+ },
+ {
+  "id": "chiara-condello",
+  "nome": "Chiara Condello",
+  "comune": "Fiumana di Predappio",
+  "provincia": "FC",
+  "zona": "Predappio",
+  "lat": 44.132786,
+  "lng": 11.9870237,
+  "google_rating": 5,
+  "google_recensioni": 1,
+  "sito": "https://www.chiaracondello.com",
+  "telefono": "+39 334 739 8797",
+  "indirizzo": "Via Lucchina, 47",
+  "vitigni": [
+   "Sangiovese"
+  ],
+  "tipologie": [
+   "rosso"
+  ],
+  "bio": true,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Progetto piccolo e molto identitario sul Sangiovese di Predappio, tra i nomi più citati dalla critica per la nuova onda romagnola. Visite solo su appuntamento.",
+  "km_auto": 12.5,
+  "min_auto": 19
+ },
+ {
+  "id": "celli",
+  "nome": "Celli – Vini di Bertinoro",
+  "comune": "Bertinoro",
+  "provincia": "FC",
+  "zona": "Bertinoro",
+  "lat": 44.1456995,
+  "lng": 12.1369476,
+  "google_rating": 4.6,
+  "google_recensioni": 94,
+  "sito": "https://www.celli-vini.com",
+  "telefono": "+39 0543 445183",
+  "indirizzo": "Viale Carducci, 5",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Pagadebit",
+   "Chardonnay",
+   "Cabernet Sauvignon"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "spumante",
+   "passito"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": 15,
+  "su_prenotazione": true,
+  "descrizione": "In pieno centro a Bertinoro, catalogo ampio e trasversale (dal Pagadebit frizzante all'Albana dolce). Comoda se vuoi unire la visita al borgo.",
+  "km_auto": 14.4,
+  "min_auto": 19
+ },
+ {
+  "id": "tenuta-la-viola",
+  "nome": "Tenuta La Viola",
+  "comune": "Bertinoro",
+  "provincia": "FC",
+  "zona": "Bertinoro",
+  "lat": 44.1532523,
+  "lng": 12.147907,
+  "google_rating": 4.9,
+  "google_recensioni": 152,
+  "sito": "https://www.tenutalaviola.it",
+  "telefono": "+39 0543 445496",
+  "indirizzo": "Via Colombarone, 888",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": true,
+  "costo_degustazione": 25,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Biologica, accoglienza curata e una delle valutazioni Google più alte della zona. Formula standard: visita più degustazione di 3 vini.",
+  "km_auto": 14.5,
+  "min_auto": 20
+ },
+ {
+  "id": "madonia",
+  "nome": "Giovanna Madonia",
+  "comune": "Bertinoro",
+  "provincia": "FC",
+  "zona": "Bertinoro",
+  "lat": 44.1446333,
+  "lng": 12.134502,
+  "google_rating": 4.9,
+  "google_recensioni": 19,
+  "sito": "https://www.giovannamadonia.it",
+  "telefono": "+39 0543 444361",
+  "indirizzo": "Via Cappuccini, 130",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "passito"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Azienda di riferimento per il Sangiovese di Bertinoro (Ombroso) e per l'Albana. Dimensioni contenute, visita personale con la titolare.",
+  "km_auto": 14.5,
+  "min_auto": 20
+ },
+ {
+  "id": "tenuta-graziani",
+  "nome": "Tenuta Graziani",
+  "comune": "Bertinoro",
+  "provincia": "FC",
+  "zona": "Bertinoro",
+  "lat": 44.1366473,
+  "lng": 12.1058543,
+  "google_rating": 5,
+  "google_recensioni": 19,
+  "sito": null,
+  "telefono": "+39 335 587 8379",
+  "indirizzo": "Via Loreta, 1021",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Piccola tenuta tra Bertinoro e Meldola, valutazione Google piena. Contatto diretto telefonico.",
+  "km_auto": 14.4,
+  "min_auto": 20
+ },
+ {
+  "id": "calonga",
+  "nome": "Cantina Calonga",
+  "comune": "Forlì",
+  "provincia": "FC",
+  "zona": "Forlì",
+  "lat": 44.2270355,
+  "lng": 11.92904,
+  "google_rating": 4.7,
+  "google_recensioni": 30,
+  "sito": "https://www.calonga.it",
+  "telefono": "+39 0543 753044",
+  "indirizzo": "Via Castel Leone, 8",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Pagadebit",
+   "Cabernet Sauvignon"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "passito",
+   "vermouth"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": 15,
+  "su_prenotazione": true,
+  "descrizione": "A pochi minuti dal centro di Forlì: catalogo ampio che va dal Sangiovese in riserva all'Albana passita, più una linea di vermouth.",
+  "km_auto": 12.7,
+  "min_auto": 21
+ },
+ {
+  "id": "marta-valpiani",
+  "nome": "Marta Valpiani",
+  "comune": "Castrocaro Terme",
+  "provincia": "FC",
+  "zona": "Castrocaro",
+  "lat": 44.170891,
+  "lng": 11.917404,
+  "google_rating": 4.9,
+  "google_recensioni": 27,
+  "sito": "https://www.martavalpiani.it",
+  "telefono": "+39 0543 769598",
+  "indirizzo": "Via Bagnolo, 158",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Trebbiano"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": true,
+  "costo_degustazione": 35,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Azienda condotta da madre e figlia, biologica, con una vineria annessa (la Mazza). Tra le interpretazioni più fini di Albana e Sangiovese dell'area.",
+  "km_auto": 14.4,
+  "min_auto": 21
+ },
+ {
+  "id": "bissoni",
+  "nome": "Raffaella Bissoni",
+  "comune": "Bertinoro",
+  "provincia": "FC",
+  "zona": "Bertinoro",
+  "lat": 44.148681,
+  "lng": 12.11683,
+  "google_rating": 4.8,
+  "google_recensioni": 36,
+  "sito": "https://vinibissoni.com",
+  "telefono": "+39 347 456 6893",
+  "indirizzo": "Via Collecchio, 280",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "passito"
+  ],
+  "bio": true,
+  "costo_degustazione": 15,
+  "costo_degustazione_max": 25,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Circa 30.000 bottiglie l'anno, biologiche, concentrate su Sangiovese e Albana. Due formule: Classic (4 vini, 15 €) e Prestige (visita + 4 vini + tagliere, 25 €). Sconto per chi guida.",
+  "km_auto": 13.3,
+  "min_auto": 21
+ },
+ {
+  "id": "fattoria-paradiso",
+  "nome": "Fattoria Paradiso",
+  "comune": "Bertinoro",
+  "provincia": "FC",
+  "zona": "Bertinoro",
+  "lat": 44.15419,
+  "lng": 12.162581,
+  "google_rating": 4.5,
+  "google_recensioni": 150,
+  "sito": "https://www.fattoriaparadiso.com",
+  "telefono": "+39 0543 445044",
+  "indirizzo": "Via Palmeggiana, 285",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Pagadebit",
+   "Cagnina"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "passito"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Tenuta storica dei Pezzi, con museo del vino e cantine visitabili: uno dei nomi che hanno costruito l'identità moderna di Bertinoro.",
+  "km_auto": 14.2,
+  "min_auto": 22
+ },
+ {
+  "id": "casadei",
+  "nome": "Claudio Casadei Agricoltore",
+  "comune": "Predappio",
+  "provincia": "FC",
+  "zona": "Predappio",
+  "lat": 44.1248416,
+  "lng": 11.9936335,
+  "google_rating": 4.9,
+  "google_recensioni": 15,
+  "sito": "https://www.aziendaagricolacasadei.it",
+  "telefono": "+39 388 064 5013",
+  "indirizzo": "Via Fiordinano Massarola, 31",
+  "vitigni": [
+   "Sangiovese"
+  ],
+  "tipologie": [
+   "rosso"
+  ],
+  "bio": true,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Piccola azienda biologica a conduzione familiare nelle colline di Predappio: poche etichette, visita raccolta e senza formalità.",
+  "km_auto": 15.6,
+  "min_auto": 23
+ },
+ {
+  "id": "de-stefenelli",
+  "nome": "Tenuta de Stefenelli",
+  "comune": "Bertinoro",
+  "provincia": "FC",
+  "zona": "Bertinoro",
+  "lat": 44.1293755,
+  "lng": 12.0927076,
+  "google_rating": 4.9,
+  "google_recensioni": 28,
+  "sito": "https://www.destefenelli.it",
+  "telefono": "+39 348 399 7443",
+  "indirizzo": "Via Fratta, km 1/8",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "spumante"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Tenuta nella zona di Fratta Terme, tra Bertinoro e Meldola. Accoglienza curata, numeri piccoli.",
+  "km_auto": 15.4,
+  "min_auto": 23
+ },
+ {
+  "id": "nicolucci",
+  "nome": "Fattoria Nicolucci",
+  "comune": "Predappio Alta",
+  "provincia": "FC",
+  "zona": "Predappio",
+  "lat": 44.0998281,
+  "lng": 11.9624695,
+  "google_rating": 4.8,
+  "google_recensioni": 58,
+  "sito": "https://www.vininicolucci.com",
+  "telefono": "+39 0543 922361",
+  "indirizzo": "Via Umberto I, 21",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Trebbiano"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Una delle firme storiche del Sangiovese di Predappio: quattro generazioni in cantina a Predappio Alta e un cru, Vigna del Generale, diventato riferimento della sottozona.",
+  "km_auto": 18.4,
+  "min_auto": 24
+ },
+ {
+  "id": "la-sabbiona",
+  "nome": "La Sabbiona",
+  "comune": "Oriolo dei Fichi, Faenza",
+  "provincia": "RA",
+  "zona": "Faenza",
+  "lat": 44.2336241,
+  "lng": 11.9177679,
+  "google_rating": 4.2,
+  "google_recensioni": 631,
+  "sito": "https://www.lasabbiona.it",
+  "telefono": "+39 350 573 9876",
+  "indirizzo": "Via di Oriolo, 10",
+  "vitigni": [
+   "Centesimino",
+   "Famoso",
+   "Albana",
+   "Sangiovese"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": 15,
+  "costo_degustazione_max": 25,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Agriturismo e cantina sotto la torre di Oriolo, specializzato negli autoctoni rari: Centesimino e Famoso. Degustazioni 15 € (3 vini) o 25 € (5 vini).",
+  "km_auto": 15.2,
+  "min_auto": 24
+ },
+ {
+  "id": "ancarani",
+  "nome": "Ancarani",
+  "comune": "Faenza",
+  "provincia": "RA",
+  "zona": "Faenza",
+  "lat": 44.2395276,
+  "lng": 11.916027,
+  "google_rating": 4.6,
+  "google_recensioni": 58,
+  "sito": "https://www.viniancarani.it",
+  "telefono": "+39 333 831 4188",
+  "indirizzo": "Via S. Biagio Antico, 14",
+  "vitigni": [
+   "Famoso",
+   "Centesimino",
+   "Albana",
+   "Sangiovese"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Tra i principali interpreti del Famoso, con vineria annessa: si può bere sul posto senza per forza fare la visita completa.",
+  "km_auto": 15.2,
+  "min_auto": 24
+ },
+ {
+  "id": "podere-baratta",
+  "nome": "Podere Baratta",
+  "comune": "Bertinoro",
+  "provincia": "FC",
+  "zona": "Bertinoro",
+  "lat": 44.1231479,
+  "lng": 12.1487514,
+  "google_rating": 4.9,
+  "google_recensioni": 84,
+  "sito": "https://www.poderebaratta.it",
+  "telefono": "+39 348 093 9396",
+  "indirizzo": "Via Collinello, 1075",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Azienda con ospitalità a Collinello: si può abbinare degustazione e pernottamento nello stesso posto.",
+  "km_auto": 17.6,
+  "min_auto": 25
+ },
+ {
+  "id": "via-del-colle",
+  "nome": "La Via del Colle",
+  "comune": "Bertinoro",
+  "provincia": "FC",
+  "zona": "Bertinoro",
+  "lat": 44.1220146,
+  "lng": 12.1450378,
+  "google_rating": 4.9,
+  "google_recensioni": 122,
+  "sito": "https://www.laviadelcolle.it",
+  "telefono": "+39 349 078 3528",
+  "indirizzo": "Via Collinello, 1501",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": true,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Azienda biologica a Collinello con apertura tipicamente pomeridiana e serale: funziona bene come aperitivo in vigna.",
+  "km_auto": 17.8,
+  "min_auto": 25
+ },
+ {
+  "id": "leone-conti",
+  "nome": "Leone Conti",
+  "comune": "Santa Lucia, Faenza",
+  "provincia": "RA",
+  "zona": "Faenza",
+  "lat": 44.2461934,
+  "lng": 11.9039955,
+  "google_rating": 4.9,
+  "google_recensioni": 77,
+  "sito": "https://www.leoneconti.it",
+  "telefono": "+39 0546 642149",
+  "indirizzo": "Via Pozzo, 1",
+  "vitigni": [
+   "Albana",
+   "Centesimino",
+   "Sangiovese",
+   "Famoso"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "macerato"
+  ],
+  "bio": true,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Cantina sperimentale e anticonvenzionale: macerati, Albana in anfora, recupero di vitigni dimenticati. Da qui passa buona parte del vino naturale romagnolo.",
+  "km_auto": 16.3,
+  "min_auto": 25
+ },
+ {
+  "id": "dal-nespoli",
+  "nome": "Poderi dal Nespoli",
+  "comune": "Civitella di Romagna",
+  "provincia": "FC",
+  "zona": "Valle del Bidente",
+  "lat": 44.0377762,
+  "lng": 11.9948152,
+  "google_rating": 4.7,
+  "google_recensioni": 309,
+  "sito": "https://www.poderidalnespoli.com",
+  "telefono": "+39 0543 989911",
+  "indirizzo": "Via Villa Rossi, 50",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Trebbiano",
+   "Pagadebit"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "spumante"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Azienda grande e molto visitata nella valle del Bidente, dal 1929. Percorso di visita strutturato e wine shop ampio.",
+  "km_auto": 25.1,
+  "min_auto": 27
+ },
+ {
+  "id": "san-biagio-vecchio",
+  "nome": "Cantina San Biagio Vecchio",
+  "comune": "Faenza",
+  "provincia": "RA",
+  "zona": "Faenza",
+  "lat": 44.2254551,
+  "lng": 11.9052514,
+  "google_rating": 4.9,
+  "google_recensioni": 126,
+  "sito": "https://www.cantinasanbiagiovecchio.it",
+  "telefono": "+39 351 489 8456",
+  "indirizzo": "Via Salita di Oriolo, 11/a",
+  "vitigni": [
+   "Centesimino",
+   "Albana",
+   "Sangiovese"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Colline di Oriolo, vitigni autoctoni e un tour di circa 2 ore tra vigna e cantina con degustazione di 4 vini. Max 8 persone al coperto, opzioni veg e gluten free.",
+  "km_auto": 17.1,
+  "min_auto": 29
+ },
+ {
+  "id": "gallegati",
+  "nome": "Azienda Agricola Gallegati",
+  "comune": "Faenza",
+  "provincia": "RA",
+  "zona": "Faenza",
+  "lat": 44.3399447,
+  "lng": 11.8688128,
+  "google_rating": 4.9,
+  "google_recensioni": 37,
+  "sito": "https://www.aziendaagricolagallegati.it",
+  "telefono": "+39 0546 605842",
+  "indirizzo": "Via Lugo, 182",
+  "vitigni": [
+   "Albana",
+   "Sangiovese"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "passito"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Azienda familiare faentina molto quotata per l'Albana, comoda da raggiungere perché in pianura.",
+  "km_auto": 29.8,
+  "min_auto": 29
+ },
+ {
+  "id": "tenuta-uccellina",
+  "nome": "Tenuta Uccellina",
+  "comune": "Russi",
+  "provincia": "RA",
+  "zona": "Ravenna",
+  "lat": 44.3710344,
+  "lng": 12.0291706,
+  "google_rating": 4.7,
+  "google_recensioni": 84,
+  "sito": "https://www.tenutauccellina.com",
+  "telefono": "+39 0544 580144",
+  "indirizzo": "Via Aldo Moro, 23/1",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Longanesi",
+   "Trebbiano"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "In pianura verso Ravenna, con una produzione ampia e visite regolari. Buona tappa se combini vino e centro storico ravennate.",
+  "km_auto": 22.3,
+  "min_auto": 29
+ },
+ {
+  "id": "trere",
+  "nome": "Trerè",
+  "comune": "Faenza",
+  "provincia": "RA",
+  "zona": "Faenza",
+  "lat": 44.3000068,
+  "lng": 11.8050327,
+  "google_rating": 4.3,
+  "google_recensioni": 316,
+  "sito": "https://www.trere.com",
+  "telefono": "+39 0546 47034",
+  "indirizzo": "Via Casale, 19",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Trebbiano",
+   "Centesimino"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "spumante"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Cantina con agriturismo e ristorante, struttura grande e organizzata: la scelta comoda se siete in molti o con bambini.",
+  "km_auto": 25,
+  "min_auto": 32
+ },
+ {
+  "id": "vigne-dei-boschi",
+  "nome": "Vigne dei Boschi",
+  "comune": "Solarolo",
+  "provincia": "RA",
+  "zona": "Brisighella",
+  "lat": 44.349378,
+  "lng": 11.852903,
+  "google_rating": 5,
+  "google_recensioni": 7,
+  "sito": "https://www.vignedeiboschi.it",
+  "telefono": "+39 338 994 9367",
+  "indirizzo": "Via Baldassarra, 14",
+  "vitigni": [
+   "Albana",
+   "Sangiovese",
+   "Centesimino"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "macerato"
+  ],
+  "bio": true,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Progetto artigianale di Paolo Babini, storicamente legato ai gessi di Brisighella: Albana e Sangiovese di impostazione naturale.",
+  "km_auto": 31.7,
+  "min_auto": 32
+ },
+ {
+  "id": "il-pratello",
+  "nome": "Il Pratello",
+  "comune": "Modigliana",
+  "provincia": "FC",
+  "zona": "Modigliana",
+  "lat": 44.1217997,
+  "lng": 11.8082236,
+  "google_rating": 4.4,
+  "google_recensioni": 26,
+  "sito": "https://www.ilpratello.net",
+  "telefono": "+39 335 135 8728",
+  "indirizzo": "Via Morana, 4",
+  "vitigni": [
+   "Sangiovese",
+   "Trebbiano",
+   "Centesimino"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": true,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Vini biologici e agriturismo in una sola tappa: si mangia, si dorme e si degusta senza rimettersi in macchina.",
+  "km_auto": 28.7,
+  "min_auto": 33
+ },
+ {
+  "id": "zerbina",
+  "nome": "Fattoria Zerbina",
+  "comune": "Marzeno, Faenza",
+  "provincia": "RA",
+  "zona": "Faenza",
+  "lat": 44.2337349,
+  "lng": 11.8605934,
+  "google_rating": 4.9,
+  "google_recensioni": 53,
+  "sito": "https://www.zerbina.com",
+  "telefono": "+39 0546 40022",
+  "indirizzo": "Via Vicchio, 11",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Cabernet Sauvignon",
+   "Merlot",
+   "Trebbiano"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "rosato",
+   "passito"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": 14,
+  "su_prenotazione": true,
+  "descrizione": "Nome maiuscolo della Romagna: lo Scacco Matto (Albana passita) e il Marzieno sono etichette da guida. Visite prenotabili online.",
+  "km_auto": 25.5,
+  "min_auto": 33
+ },
+ {
+  "id": "ca-di-sopra",
+  "nome": "Ca' di Sopra",
+  "comune": "Marzeno, Brisighella",
+  "provincia": "RA",
+  "zona": "Brisighella",
+  "lat": 44.220061,
+  "lng": 11.868045,
+  "google_rating": 4.8,
+  "google_recensioni": 24,
+  "sito": "https://www.cadisopra.com",
+  "telefono": "+39 328 492 7073",
+  "indirizzo": "Via Feligara, 15",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Azienda della valle del Marzeno, tra Brisighella e Modigliana: visita in cantina con degustazione su prenotazione.",
+  "km_auto": 26.7,
+  "min_auto": 34
+ },
+ {
+  "id": "il-teatro",
+  "nome": "Il Teatro",
+  "comune": "Modigliana",
+  "provincia": "FC",
+  "zona": "Modigliana",
+  "lat": 44.153186,
+  "lng": 11.800926,
+  "google_rating": 4.9,
+  "google_recensioni": 53,
+  "sito": null,
+  "telefono": "+39 335 135 8688",
+  "indirizzo": "Via Monte Trebbio, 17",
+  "vitigni": [
+   "Sangiovese"
+  ],
+  "tipologie": [
+   "rosso"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Cantina piccolissima con vista su Modigliana, molto amata nelle recensioni. Contatto solo telefonico o social.",
+  "km_auto": 31.6,
+  "min_auto": 35
+ },
+ {
+  "id": "stefano-ferrucci",
+  "nome": "Stefano Ferrucci",
+  "comune": "Castel Bolognese",
+  "provincia": "RA",
+  "zona": "Faenza",
+  "lat": 44.2993941,
+  "lng": 11.7781943,
+  "google_rating": 4.9,
+  "google_recensioni": 25,
+  "sito": "https://www.stefanoferrucci.it",
+  "telefono": "+39 0546 651068",
+  "indirizzo": "Via Casolana, 3045",
+  "vitigni": [
+   "Albana",
+   "Sangiovese"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "passito"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Riferimento per l'Albana (Domus Caia) e per i Sangiovese di lungo affinamento. Azienda familiare, visite su appuntamento.",
+  "km_auto": 29.3,
+  "min_auto": 36
+ },
+ {
+  "id": "villa-papiano",
+  "nome": "Villa Papiano",
+  "comune": "Modigliana",
+  "provincia": "FC",
+  "zona": "Modigliana",
+  "lat": 44.1093125,
+  "lng": 11.79396,
+  "google_rating": 4.7,
+  "google_recensioni": 19,
+  "sito": "https://www.villapapiano.it",
+  "telefono": "+39 338 104 1271",
+  "indirizzo": "Via Monte Forcella, 24",
+  "vitigni": [
+   "Sangiovese",
+   "Trebbiano"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": true,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Uno dei nomi simbolo del Sangiovese di montagna di Modigliana, in quota sull'Appennino tosco-romagnolo. Vale il viaggio per il paesaggio quanto per i vini.",
+  "km_auto": 31.1,
+  "min_auto": 37
+ },
+ {
+  "id": "podere-la-berta",
+  "nome": "Podere La Berta",
+  "comune": "Brisighella",
+  "provincia": "RA",
+  "zona": "Brisighella",
+  "lat": 44.2643534,
+  "lng": 11.8048362,
+  "google_rating": 4.6,
+  "google_recensioni": 470,
+  "sito": "https://www.poderelaberta.com",
+  "telefono": "+39 0546 790372",
+  "indirizzo": "Via Berta, 13",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Trebbiano"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Cantina e agriturismo sulle colline di Brisighella, con ristorazione: tante recensioni e una formula collaudata per gruppi.",
+  "km_auto": 25,
+  "min_auto": 38
+ },
+ {
+  "id": "masselina",
+  "nome": "Tenuta Masselina",
+  "comune": "Castel Bolognese",
+  "provincia": "RA",
+  "zona": "Faenza",
+  "lat": 44.2996106,
+  "lng": 11.756176,
+  "google_rating": 4.9,
+  "google_recensioni": 44,
+  "sito": "https://www.masselina.it",
+  "telefono": "+39 0546 651004",
+  "indirizzo": "Via Pozze, 1250",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": true,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Progetto recente e molto curato sul crinale di Castel Bolognese, con architettura di cantina contemporanea e accoglienza di livello.",
+  "km_auto": 30.4,
+  "min_auto": 40
+ },
+ {
+  "id": "tenuta-neri",
+  "nome": "Tenuta Neri",
+  "comune": "Cesena",
+  "provincia": "FC",
+  "zona": "Cesena",
+  "lat": 44.082084,
+  "lng": 12.263831,
+  "google_rating": 4.8,
+  "google_recensioni": 52,
+  "sito": "https://www.tenutaneri.com",
+  "telefono": "+39 352 093 0877",
+  "indirizzo": "Via Bartoletti, 211",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Sulle colline cesenati, con visita guidata, degustazione e taglieri locali. Prenotazione online attiva.",
+  "km_auto": 38.9,
+  "min_auto": 41
+ },
+ {
+  "id": "tenuta-casali",
+  "nome": "Tenuta Casali",
+  "comune": "Mercato Saraceno",
+  "provincia": "FC",
+  "zona": "Valle del Savio",
+  "lat": 43.9721051,
+  "lng": 12.2002829,
+  "google_rating": 4.9,
+  "google_recensioni": 73,
+  "sito": "https://www.tenutacasali.it",
+  "telefono": "+39 0547 690334",
+  "indirizzo": "Via della Liberazione, 32",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Famoso"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": true,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Nella valle del Savio, biologica, con una delle accoglienze più apprezzate del cesenate. Al limite dell'ora di guida da Forlì.",
+  "km_auto": 45.9,
+  "min_auto": 41
+ },
+ {
+  "id": "cantina-bulzaga",
+  "nome": "Cantina Bulzaga",
+  "comune": "Pideura, Brisighella",
+  "provincia": "RA",
+  "zona": "Brisighella",
+  "lat": 44.2576523,
+  "lng": 11.781313,
+  "google_rating": 4.8,
+  "google_recensioni": 22,
+  "sito": "https://www.cantinabulzaga.com",
+  "telefono": "+39 0546 43174",
+  "indirizzo": "Via Pideura, 19",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Centesimino"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Piccola cantina di Pideura, nelle colline sopra Brisighella. Location molto citata nelle recensioni per la vista.",
+  "km_auto": 28.6,
+  "min_auto": 42
+ },
+ {
+  "id": "balia-di-zola",
+  "nome": "Balìa di Zola",
+  "comune": "Modigliana",
+  "provincia": "FC",
+  "zona": "Modigliana",
+  "lat": 44.165032,
+  "lng": 11.768862,
+  "google_rating": 5,
+  "google_recensioni": 5,
+  "sito": "https://www.baliadizola.com",
+  "telefono": "+39 348 793 9370",
+  "indirizzo": "Via Casale, 11",
+  "vitigni": [
+   "Sangiovese"
+  ],
+  "tipologie": [
+   "rosso"
+  ],
+  "bio": true,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Micro-azienda dell'alta valle del Tramazzo, nel circuito dei Sangiovese di montagna di Modigliana. Produzione minima, accoglienza molto personale.",
+  "km_auto": 36.7,
+  "min_auto": 43
+ },
+ {
+  "id": "cantina-braschi",
+  "nome": "Cantina Braschi",
+  "comune": "Mercato Saraceno",
+  "provincia": "FC",
+  "zona": "Valle del Savio",
+  "lat": 43.9643482,
+  "lng": 12.1961604,
+  "google_rating": 4.8,
+  "google_recensioni": 30,
+  "sito": "https://www.cantinabraschi.com",
+  "telefono": null,
+  "indirizzo": "Viale Roma, 37",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Storica cantina di Mercato Saraceno nella valle del Savio, con vigneti in quota e stile tradizionale.",
+  "km_auto": 46.9,
+  "min_auto": 43
+ },
+ {
+  "id": "tre-monti",
+  "nome": "Tre Monti",
+  "comune": "Imola",
+  "provincia": "BO",
+  "zona": "Imola",
+  "lat": 44.307787,
+  "lng": 11.733123,
+  "google_rating": 4.7,
+  "google_recensioni": 72,
+  "sito": "https://www.tremonti.it",
+  "telefono": "+39 0542 657116",
+  "indirizzo": "Via Lola, 3",
+  "vitigni": [
+   "Albana",
+   "Sangiovese",
+   "Trebbiano",
+   "Cabernet Sauvignon"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco",
+   "spumante",
+   "passito",
+   "macerato"
+  ],
+  "bio": true,
+  "costo_degustazione": null,
+  "vini_catalogo": 21,
+  "su_prenotazione": true,
+  "descrizione": "Grande catalogo (oltre venti etichette) e una delle cantine più organizzate per l'accoglienza nella zona di Imola.",
+  "km_auto": 48.5,
+  "min_auto": 45
+ },
+ {
+  "id": "villa-venti",
+  "nome": "Villa Venti",
+  "comune": "Roncofreddo",
+  "provincia": "FC",
+  "zona": "Cesena",
+  "lat": 44.0620449,
+  "lng": 12.3184852,
+  "google_rating": 4.8,
+  "google_recensioni": 56,
+  "sito": "https://www.villaventi.it",
+  "telefono": "+39 334 544 7990",
+  "indirizzo": "Via Doccia, 1442",
+  "vitigni": [
+   "Sangiovese",
+   "Centesimino"
+  ],
+  "tipologie": [
+   "rosso"
+  ],
+  "bio": true,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Cantina e agriturismo sulle colline di Roncofreddo, piccola e artigianale, con il Primo Segno come etichetta simbolo.",
+  "km_auto": 41.4,
+  "min_auto": 45
+ },
+ {
+  "id": "cantina-casadio",
+  "nome": "Cantina Casadio",
+  "comune": "Brisighella",
+  "provincia": "RA",
+  "zona": "Brisighella",
+  "lat": 44.2242596,
+  "lng": 11.7310081,
+  "google_rating": 4.9,
+  "google_recensioni": 55,
+  "sito": "https://www.cantinacasadio.it",
+  "telefono": "+39 339 134 6763",
+  "indirizzo": "Via Rontana, 50/D",
+  "vitigni": [
+   "Sangiovese",
+   "Albana"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Enoturismo in valle del Lamone con formula aperitivo: apertura serale nel fine settimana, atmosfera rilassata.",
+  "km_auto": 35.1,
+  "min_auto": 45
+ },
+ {
+  "id": "ronchi-castelluccio",
+  "nome": "Ronchi di Castelluccio",
+  "comune": "Modigliana",
+  "provincia": "FC",
+  "zona": "Modigliana",
+  "lat": 44.1904211,
+  "lng": 11.7671694,
+  "google_rating": 5,
+  "google_recensioni": 12,
+  "sito": "https://www.ronchidicastelluccio.com",
+  "telefono": "+39 347 212 1158",
+  "indirizzo": "Via Tramonto, 15",
+  "vitigni": [
+   "Sangiovese"
+  ],
+  "tipologie": [
+   "rosso"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Storica proprietà dei ronchi di Modigliana, rilanciata di recente: cru di Sangiovese su terreni di marne e arenarie.",
+  "km_auto": 37.2,
+  "min_auto": 46
+ },
+ {
+  "id": "tenuta-amalia",
+  "nome": "Tenuta Amalia",
+  "comune": "Verucchio",
+  "provincia": "RN",
+  "zona": "Rimini",
+  "lat": 44.018871,
+  "lng": 12.4278265,
+  "google_rating": 5,
+  "google_recensioni": 2,
+  "sito": "https://www.tenutaamalia.com",
+  "telefono": null,
+  "indirizzo": "Via Molino Bianco, 809",
+  "vitigni": [
+   "Sangiovese",
+   "Albana",
+   "Rebola"
+  ],
+  "tipologie": [
+   "rosso",
+   "bianco"
+  ],
+  "bio": false,
+  "costo_degustazione": null,
+  "vini_catalogo": null,
+  "su_prenotazione": true,
+  "descrizione": "Tenuta della valle del Marecchia, al confine esterno dell'ora di guida. Da abbinare a una gita a Verucchio o Santarcangelo.",
+  "km_auto": 53.9,
+  "min_auto": 49
+ }
+]
